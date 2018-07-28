@@ -1,0 +1,48 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+    <title>Auto V</title>
+    <!--meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+
+    <!--link rel="stylesheet" href="custom.css" /-->
+</head>
+
+<body>
+
+    <header>
+        <h1>Auto V Car Dealership</h1>
+
+    [% IF logged_in %]
+    <form id="logout_form" action="/store_int620/store.dhtml" method="post" accept-charset="utf-8">
+        <label for="logout_form"><b>Logged in as [% sess_username %]</b></label>
+        <button value="logout_form" name="submit" type="submit">Logout</button>
+    </form>
+    [% ELSE %]
+    <form id="login_form" action="/store_int620/store.dhtml" method="post" accept-charset="utf-8">
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username">
+
+        <label for="passwd"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="passwd">
+
+        <button type="submit" value="login_form" name="submit">Login</button>
+    </form>
+    
+    <a href="/store_int620/register.dhtml">Register</a>
+    <!--form id="registration_form" action="/store_int620/register.dhtml"
+        method="post" accept-charset="utf-8">
+        <button type="submit" value="registration_form" name="submit">Register</button>
+    </form--!>
+    [% END %]
+
+    </header>
+</body>
+</html>

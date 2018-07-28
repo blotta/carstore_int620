@@ -1,0 +1,381 @@
+#!/usr/local/bin/perl  
+#!/usr/bin/perl
+###############################################
+# first example using templating, xhtml and css
+# (c) ckaduri, 2002-20013
+# version 0.9b
+#
+##############################################
+#use strict;
+use Template;   #step 1
+use DBI;
+use CGI;
+
+use Apache::Session::MySQL;
+
+use Crypt::PasswdMD5;
+
+use Data::Dumper;
+
+use lib '/export/srv/www/vhosts/main/store_int620/lib';
+use CarStore::Users;
+
+use constant TEMPLATELIB => '/export/srv/www/vhosts/main/tt2';
+################################ 
+## Declaration of Variables   ##
+################################
+
+my($template,
+   $ttObject,
+   $cgiObject,
+   $sample,
+   $vars,
+   $db,
+   $sql,
+   $query_result,
+   $sections,
+   @collection,
+   $template,
+   %session,
+   $sessionID,
+   $cookie,
+   %newuser_form,
+   $form_submitted
+);
+my($debug)=0;
+
+my $dbuser = 'root';
+my $dbpass = 'toor';
+my $dbhost = 'localhost';
+my $db_sess_table = 'sessions';
+my $dbname = 'carstore_int620';
+
+#########################
+# debug                 #
+#########################
+if($debug)
+    {
+    }
+    
+#########################
+# Generate Magic Header #
+#########################
+$cgiObject=new CGI;
+
+print STDOUT $cgiObject->header('text/html');
+
+
+#########################
+# Session Start         #
+#########################
+
+# get cookie
+$sessionID = $cgiObject->cookie("PERLSESSID");
+
+tie %session, "Apache::Session::MySQL", $sessionID, {
+        DataSource => "DBI:mysql:host=$dbhost:database=$dbname",
+        UserName => "$dbuser",
+        Password => "$dbpass",
+        TableName => "$db_sess_table",
+        LockDataSource => "DBI:mysql:host=$dbhost:database=$dbname",
+        LockUserName => "$dbuser",
+        LockPassword => "$dbpass"
+};
+
+if (!defined ($sessionID)) {
+    # New session
+    #print "New Session\n";
+    $sessionID = $session{_session_id};
+    $session{count} = 0;
+    $session{timestamp} = [ ];
+    $cookie = $cgiObject->cookie(-name=>"PERLSESSID", -value=>$sessionID);
+} else {
+    #print "Old Session\n";
+}
+
+#print $sessionID;
+
+++$session{count};
+push( @{ $session{timestamp} }, scalar( localtime( time() ) ));
+
+# send cookie
+print STDOUT $cgiObject->header(-cookie => $cookie);
+
+#########################
+# Login                 #
+#########################
+
+my $username;
+my $password;
+
+if ($ENV{REQUEST_METHOD} eq "POST"){
+
+    $form_submitted = 1;
+    #print "form: ", $cgiObject->param('submit');
+    #print "user: ", $cgiObject->param('username');
+    #print "pass: ", $cgiObject->param('passwd');
+    #print "fname: ", $cgiObject->param('fname');
+    #print "lname: ", $cgiObject->param('lname');
+    #print "phone: ", $cgiObject->param('phone');
+    #print "street: ", $cgiObject->param('street');
+    #print "pcode: ", $cgiObject->param('pcode');
+    #print "email: ", $cgiObject->param('email');
+
+    %newuser_form = ( valid => 1 );
+
+    my $form = $cgiObject->param('submit');
+    my $user = $cgiObject->param('username');
+    my $pass = $cgiObject->param('passwd');
+    my $fname = $cgiObject->param('fname');
+    my $lname = $cgiObject->param('lname');
+    my $phone = $cgiObject->param('phone');
+    my $street = $cgiObject->param('street');
+    my $pcode = $cgiObject->param('pcode');
+    my $email = $cgiObject->param('email');
+
+    if ($form eq 'newuser_form'){
+        #$user = $user =~ /[a-zA-Z0-9-._]+/;
+        if ($user =~ /[a-zA-Z0-9-._]+/){
+            $newuser_form{username} = $cgiObject->param('username');
+        }else {
+            $newuser_form{valid} = 0;
+            $newuser_form{errmsg} = "Invalid username";
+        }
+        
+        #$pass = $pass =~ /[a-zA-Z0-9-.,_&^#@!(){}'"]+/;
+        if ($pass =~ /[a-zA-Z0-9-.,_&^#@!(){}'"]+/){
+            $newuser_form{passwd} = $pass;
+        }else{
+            $newuser_form{valid} = 0;
+            $newuser_form{errmsg} = "Invalid password";
+        }
+        
+        #$fname = $fname =~ /[a-zA-Z]+/;
+        if ($fname =~ /[a-zA-Z]+/){
+            $newuser_form{fname} = $fname;
+        }else{
+            $newuser_form{valid} = 0;
+            $newuser_form{errmsg} = "Invalid First Name";
+        }
+        
+        #$lname = $lname =~ /[a-zA-Z]+/;
+        if ($lname =~ /[a-zA-Z]+/){
+            $newuser_form{lname} = $lname;
+        }else{
+            $newuser_form{valid} = 0;
+            $newuser_form{errmsg} = "Invalid Last name";
+        }
+        
+        #$phone = $phone =~ /[0-9-.,_&^#@!(){}'"]{10}/;
+        if ($phone =~ /[0-9-.,_&^#@!(){}'"]{10}/){
+            $newuser_form{phone} = $phone;
+        }else{
+            $newuser_form{valid} = 0;
+            $newuser_form{errmsg} = "Invalid phone";
+        }
+        
+        #$street = $street =~ /[a-zA-Z0-9-. ]+/;
+        if ($street =~ /[a-zA-Z0-9-. ]+/) {
+            $newuser_form{street} = $street;
+        }else{
+            $newuser_form{valid} = 0;
+            $newuser_form{errmsg} = "Invalid street";
+        }
+        
+        #$pcode = $pcode =~ /[a-zA-Z0-9]{6}/;
+        if ($pcode =~ /[a-zA-Z0-9]{6}/){
+            $newuser_form{pcode} = $pcode;
+        }else{
+            $newuser_form{valid} = 0;
+            $newuser_form{errmsg} = "Invalid postal code";
+        }
+
+        #$email = $email =~ /[a-zA-Z0-9-._]+@[a-zA-Z0-9-.]+\.[a-z0-9]{2,4}/;
+        if ($email =~ /[a-zA-Z0-9-._]+@[a-zA-Z0-9-.]+\.[a-z0-9]{2,4}/){
+            $newuser_form{email} = $email;
+        }else{
+            $newuser_form{valid} = 0;
+            $newuser_form{errmsg} = "Invalid email";
+        }
+    } else {
+        $newuser_form{errmsg} = "Invalid form";
+        $newuser_form{valid} = 0;
+    }
+
+    if ( checkUserExists($user) > 0 ){
+        $newuser_form{valid} = 0;
+        $newuser_form{errmsg} = "User already exists";
+    }
+    
+    if ($newuser_form{valid} eq 1){
+        addUser($user, $pass, $fname, $lname, $phone, $street, $pcode, $email);
+        #print "Valid registration\n";
+        #print Dumper $newuser_form;
+    } else {
+        #print "Invalid registration\n";
+        #print $newuser_form{errmsg};
+        #print Dumper %newuser_form;
+    }
+} else {
+    # GET
+    $form_submitted = 0;
+    $newuser_form = ();
+
+}
+
+#sub addPostal {
+#    my $postal = shift;
+#
+#    if (checkPostalExists($postal) <= 0 ){
+#        my $db = DBI->connect("dbi:mysql:carstore_int620:localhost","root","toor")
+#            or die "Database not reachable\n";
+#
+#        my $sql = qq{ INSERT INTO postal ( pcode, city, province ) VALUES ( ?, ?, ? ) };
+#        my $query_result = $db->prepare($sql);
+#
+#        $query_result->bind_param(1, $postal);
+#        $query_result->bind_param(2, 'Toronto');
+#        $query_result->bind_param(3, 'ON');
+#
+#        $query_result->execute() or die "Query failed: $DBI::errstr";
+#
+#        $db->disconnect();
+#
+#        print "Created postal";
+#    }else{
+#        print "Postal exist";
+#    }
+#}
+#
+#sub addUser {
+#    my ($username, $password, $fname, $lname, $phone, $street, $pcode, $email) = @_ ;
+#    my $salt = '100';
+#
+#
+#    addPostal($pcode);
+#
+#    my $db = DBI->connect("dbi:mysql:carstore_int620:localhost","root","toor")
+#        or die "Database not reachable\n";
+#
+#    # Get sections
+#    my $sql = qq{ INSERT INTO users (username, password, fname, lname, phone, street, pcode, email)
+#               VALUES (?, ?, ?, ?, ?, ?, ?, ?) };
+#
+#    print $sql, $pcode;
+#    my $query_result = $db->prepare($sql);
+#
+#    $query_result->bind_param(1, $username);
+#    $query_result->bind_param(2, apache_md5_crypt($password, $salt) );
+#    $query_result->bind_param(3, $fname);
+#    $query_result->bind_param(4, $lname);
+#    $query_result->bind_param(5, $phone);
+#    $query_result->bind_param(6, $street);
+#    $query_result->bind_param(7, $pcode);
+#    $query_result->bind_param(8, $email);
+#
+#    $query_result->execute() or die "Query failed: $DBI::errstr";
+#
+#    $db->disconnect();
+#}
+#
+#sub checkPostalExists {
+#    my $pcode = shift;
+#
+#    my $db = DBI->connect("dbi:mysql:carstore_int620:localhost","root","toor")
+#        or die "Database not reachable\n";
+#
+#    my $sql = qq{ SELECT count(*) FROM postal WHERE pcode = ? };
+#
+#    my $query_result = $db->prepare($sql);
+#    $query_result->bind_param(1, $pcode);
+#
+#    $query_result->execute();
+#
+#    my $count = $query_result->fetchrow_array();
+#
+#    $db->disconnect();
+#
+#    return $count;
+#}
+#
+#sub checkUserExists {
+#    my $username = shift;
+#
+#    my $db = DBI->connect("dbi:mysql:carstore_int620:localhost","root","toor")
+#        or die "Database not reachable\n";
+#
+#    my $sql = qq{ SELECT count(*) FROM users WHERE username = ? };
+#
+#    my $query_result = $db->prepare($sql);
+#    $query_result->bind_param(1, $username);
+#
+#    $query_result->execute();
+#
+#    my $count = $query_result->fetchrow_array();
+#
+#    $db->disconnect();
+#
+#    return $count;
+#}
+
+################################ 
+## New Template Object(step 2)##
+################################
+my %config=(
+	INCLUDE_PATH => [ TEMPLATELIB ],
+);
+    
+$ttObject = Template->new( \%config );
+
+$template = 'store-register.tt2';
+
+###################################### 
+## Prep vars for template (step 4a) ##
+######################################
+
+$vars = {
+    sess_id => $sessionID,
+    sess_count => $session{count},
+    sess_time => $session{timestamp},
+    logged_in => $session{logged_in},
+    form_submitted => $form_submitted,
+    newuser_form => \%newuser_form
+        };
+
+#print "<p>",Dumper $vars, "</p>";
+###################################### 
+## Bind and pass flow (step 4b + 5) ##
+######################################
+$ttObject->process ( $template, $vars ) 
+	or die( $ttObject->error() );
+
+   
+######################################
+
+#########################
+# Session End           #
+#########################
+
+#print "Saving session\n";
+untie(%session);
+
+#if ($session{count} < 10) {
+#    # close and save session
+#    print "Saving session\n";
+#    print $newuser_form{username};
+#    untie(%session);
+#} else {
+#    # destroy session after 10
+#    tied(%session)->delete();
+#    # reset browser cookie
+#    $cookie = $cgiObject->cookie(
+#        -name => "PERLSESSID",
+#        -value => $sessionID,
+#        -expires => "-1d"
+#    );
+#}
+
+__END__
+
+
+

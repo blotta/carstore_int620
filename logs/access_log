@@ -1,0 +1,2375 @@
+74.15.32.46 - - [28/Feb/2017:10:13:10 -0500] "GET / HTTP/1.1" 200 7
+74.15.32.46 - - [28/Feb/2017:10:13:10 -0500] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [28/Feb/2017:10:13:18 -0500] "OPTIONS * HTTP/1.0" 200 -
+74.15.32.46 - - [28/Feb/2017:10:37:47 -0500] "GET /exe/regiostration.cgi HTTP/1.1" 404 -
+74.15.32.46 - - [28/Feb/2017:10:37:56 -0500] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+74.15.32.46 - - [28/Feb/2017:10:39:45 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 172
+74.15.32.46 - - [28/Feb/2017:10:40:16 -0500] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+74.15.32.46 - - [28/Feb/2017:10:41:01 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1184
+74.15.32.46 - - [28/Feb/2017:10:41:05 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1214
+::1 - - [28/Feb/2017:23:13:00 -0500] "OPTIONS * HTTP/1.0" 200 -
+10.40.85.153 - - [02/Mar/2017:13:19:51 -0500] "GET /exe/registration HTTP/1.1" 404 -
+10.40.85.153 - - [02/Mar/2017:13:19:52 -0500] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.85.153 - - [02/Mar/2017:13:19:52 -0500] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.85.153 - - [02/Mar/2017:13:19:57 -0500] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+10.40.85.153 - - [02/Mar/2017:13:20:51 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 172
+10.40.85.153 - - [02/Mar/2017:13:21:57 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1269
+10.40.85.153 - - [02/Mar/2017:13:22:02 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1303
+10.40.85.153 - - [02/Mar/2017:13:22:05 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1336
+10.40.85.153 - - [02/Mar/2017:13:22:08 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1367
+10.40.85.153 - - [02/Mar/2017:13:22:12 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1385
+10.40.85.153 - - [02/Mar/2017:13:22:14 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1415
+10.40.85.153 - - [02/Mar/2017:13:22:19 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1521
+::1 - - [05/Mar/2017:13:29:25 -0500] "OPTIONS * HTTP/1.0" 200 -
+10.40.90.41 - - [07/Mar/2017:09:54:53 -0500] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+10.40.90.41 - - [07/Mar/2017:09:54:53 -0500] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.90.41 - - [07/Mar/2017:10:38:20 -0500] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+10.40.90.41 - - [07/Mar/2017:10:39:45 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 172
+10.40.90.41 - - [07/Mar/2017:10:46:17 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1227
+10.40.90.41 - - [07/Mar/2017:10:49:26 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1227
+10.40.90.41 - - [07/Mar/2017:10:49:27 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1227
+10.40.90.41 - - [07/Mar/2017:10:49:29 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1227
+10.40.90.41 - - [07/Mar/2017:10:49:30 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1227
+10.40.90.41 - - [07/Mar/2017:10:52:28 -0500] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+10.40.90.41 - - [07/Mar/2017:10:52:41 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1339
+10.40.90.41 - - [07/Mar/2017:10:52:46 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1231
+10.40.90.41 - - [07/Mar/2017:10:52:49 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 1195
+10.40.90.41 - - [07/Mar/2017:10:52:51 -0500] "POST /exe/registration.cgi HTTP/1.1" 200 172
+::1 - - [11/Mar/2017:01:56:04 -0500] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Mar/2017:19:22:48 -0500] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Mar/2017:21:11:30 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Mar/2017:21:11:31 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [15/Mar/2017:14:27:20 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [16/Mar/2017:11:59:52 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [17/Mar/2017:12:50:05 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [18/Mar/2017:12:42:41 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [19/Mar/2017:14:17:30 -0400] "OPTIONS * HTTP/1.0" 200 -
+108.168.68.236 - - [19/Mar/2017:23:51:52 -0400] "GET / HTTP/1.1" 200 7
+108.168.68.236 - - [19/Mar/2017:23:51:52 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+108.168.68.236 - - [19/Mar/2017:23:52:42 -0400] "GET /exe/registration HTTP/1.1" 404 -
+108.168.68.236 - - [19/Mar/2017:23:52:47 -0400] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+108.168.68.236 - - [19/Mar/2017:23:54:04 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 172
+108.168.68.236 - - [19/Mar/2017:23:54:10 -0400] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+108.168.68.236 - - [19/Mar/2017:23:57:35 -0400] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+108.168.68.236 - - [19/Mar/2017:23:57:43 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1423
+108.168.68.236 - - [19/Mar/2017:23:57:44 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1423
+108.168.68.236 - - [20/Mar/2017:00:21:42 -0400] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+108.168.68.236 - - [20/Mar/2017:01:24:39 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1083
+108.168.68.236 - - [20/Mar/2017:01:25:09 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1459
+108.168.68.236 - - [20/Mar/2017:01:26:40 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 -
+108.168.68.236 - - [20/Mar/2017:01:26:50 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1083
+108.168.68.236 - - [20/Mar/2017:01:26:53 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1460
+108.168.68.236 - - [20/Mar/2017:01:29:56 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1083
+108.168.68.236 - - [20/Mar/2017:01:30:06 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1422
+108.168.68.236 - - [20/Mar/2017:01:30:11 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1352
+108.168.68.236 - - [20/Mar/2017:01:30:13 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1316
+108.168.68.236 - - [20/Mar/2017:01:30:15 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1280
+108.168.68.236 - - [20/Mar/2017:01:30:17 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1242
+108.168.68.236 - - [20/Mar/2017:01:30:18 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1205
+108.168.68.236 - - [20/Mar/2017:01:30:20 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1169
+108.168.68.236 - - [20/Mar/2017:01:30:21 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 -
+108.168.68.236 - - [20/Mar/2017:01:30:28 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1083
+108.168.68.236 - - [20/Mar/2017:01:43:58 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1455
+108.168.68.236 - - [20/Mar/2017:01:44:26 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1460
+108.168.68.236 - - [20/Mar/2017:01:44:34 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1394
+108.168.68.236 - - [20/Mar/2017:01:45:29 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+108.168.68.236 - - [20/Mar/2017:01:45:33 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1455
+108.168.68.236 - - [20/Mar/2017:01:45:46 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1460
+108.168.68.236 - - [20/Mar/2017:01:45:51 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1460
+108.168.68.236 - - [20/Mar/2017:01:45:53 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1423
+108.168.68.236 - - [20/Mar/2017:01:45:55 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1384
+108.168.68.236 - - [20/Mar/2017:01:45:58 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1384
+108.168.68.236 - - [20/Mar/2017:01:46:00 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1455
+108.168.68.236 - - [20/Mar/2017:01:48:02 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1460
+108.168.68.236 - - [20/Mar/2017:01:48:07 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1460
+108.168.68.236 - - [20/Mar/2017:01:48:08 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1460
+108.168.68.236 - - [20/Mar/2017:01:48:09 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1460
+108.168.68.236 - - [20/Mar/2017:01:48:09 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1460
+108.168.68.236 - - [20/Mar/2017:01:48:30 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.84.129 - - [20/Mar/2017:12:12:02 -0400] "GET / HTTP/1.1" 200 7
+10.40.84.129 - - [20/Mar/2017:12:12:02 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.84.129 - - [20/Mar/2017:12:14:19 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1455
+10.59.23.253 - - [20/Mar/2017:12:15:44 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1455
+10.59.23.253 - - [20/Mar/2017:12:15:45 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.59.23.253 - - [20/Mar/2017:12:16:44 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1523
+10.32.130.18 - - [20/Mar/2017:12:27:56 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1455
+10.32.130.18 - - [20/Mar/2017:12:27:57 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.32.130.18 - - [20/Mar/2017:12:39:25 -0400] "GET /exe/testing HTTP/1.1" 404 -
+10.32.130.18 - - [20/Mar/2017:12:39:30 -0400] "GET /exe/testing.cgi HTTP/1.1" 200 1632
+10.32.130.18 - - [20/Mar/2017:12:39:33 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1523
+10.32.130.18 - - [20/Mar/2017:12:39:43 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1488
+10.32.130.18 - - [20/Mar/2017:12:39:46 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1451
+10.32.130.18 - - [20/Mar/2017:12:39:49 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1414
+10.32.130.18 - - [20/Mar/2017:12:40:30 -0400] "GET /exe/testing.cgi HTTP/1.1" 200 1632
+10.32.130.18 - - [20/Mar/2017:12:41:17 -0400] "GET /exe/testing.cgi HTTP/1.1" 200 1625
+10.32.130.18 - - [20/Mar/2017:12:41:20 -0400] "POST /exe/testing.cgi HTTP/1.1" 200 1550
+10.32.130.18 - - [20/Mar/2017:12:41:45 -0400] "GET /exe/testing.cgi HTTP/1.1" 200 1623
+10.32.130.18 - - [20/Mar/2017:12:41:48 -0400] "POST /exe/testing.cgi HTTP/1.1" 200 1627
+10.32.130.18 - - [20/Mar/2017:12:41:50 -0400] "POST /exe/testing.cgi HTTP/1.1" 200 1592
+10.32.130.18 - - [20/Mar/2017:12:42:00 -0400] "POST /exe/testing.cgi HTTP/1.1" 200 1553
+10.32.130.18 - - [20/Mar/2017:12:42:06 -0400] "POST /exe/testing.cgi HTTP/1.1" 200 1553
+10.32.130.18 - - [20/Mar/2017:12:42:46 -0400] "POST /exe/testing.cgi HTTP/1.1" 200 1513
+10.32.130.18 - - [20/Mar/2017:12:43:29 -0400] "GET /exe/testing.cgi HTTP/1.1" 200 1623
+10.32.130.18 - - [20/Mar/2017:12:43:37 -0400] "POST /exe/testing.cgi HTTP/1.1" 200 1218
+10.32.130.18 - - [20/Mar/2017:12:43:42 -0400] "POST /exe/testing.cgi HTTP/1.1" 200 1219
+10.32.130.18 - - [20/Mar/2017:12:44:01 -0400] "GET /exe/testing.cgi HTTP/1.1" 200 1623
+10.32.130.18 - - [20/Mar/2017:12:44:40 -0400] "POST /exe/testing.cgi HTTP/1.1" 200 1303
+10.32.130.18 - - [20/Mar/2017:12:44:43 -0400] "POST /exe/testing.cgi HTTP/1.1" 200 1263
+10.32.130.18 - - [20/Mar/2017:12:44:49 -0400] "POST /exe/testing.cgi HTTP/1.1" 200 1292
+10.32.130.18 - - [20/Mar/2017:12:44:53 -0400] "POST /exe/testing.cgi HTTP/1.1" 200 172
+10.32.130.18 - - [20/Mar/2017:12:46:35 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1630
+10.32.130.18 - - [20/Mar/2017:12:46:40 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1634
+10.32.130.18 - - [20/Mar/2017:12:47:11 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+10.32.130.18 - - [20/Mar/2017:12:54:34 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.84.16 - - [20/Mar/2017:14:07:33 -0400] "GET / HTTP/1.1" 200 7
+10.40.84.16 - - [20/Mar/2017:14:07:33 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.84.16 - - [20/Mar/2017:14:07:45 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 500 26
+10.40.84.16 - - [20/Mar/2017:14:09:27 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 500 26
+10.40.84.16 - - [20/Mar/2017:14:09:30 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 500 26
+10.40.84.16 - - [20/Mar/2017:14:16:31 -0400] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+10.40.84.16 - - [20/Mar/2017:14:17:49 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 172
+10.40.84.16 - - [20/Mar/2017:14:18:24 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+10.40.84.16 - - [20/Mar/2017:14:18:55 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1519
+10.40.84.16 - - [20/Mar/2017:14:19:49 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1306
+10.40.84.16 - - [20/Mar/2017:14:19:57 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.84.16 - - [20/Mar/2017:14:27:14 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.84.16 - - [20/Mar/2017:14:27:18 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1306
+10.40.84.16 - - [20/Mar/2017:14:27:20 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1306
+10.40.84.16 - - [20/Mar/2017:14:27:23 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1306
+10.40.84.16 - - [20/Mar/2017:14:27:29 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.84.16 - - [20/Mar/2017:14:27:46 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+10.40.84.16 - - [20/Mar/2017:14:27:50 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1599
+10.40.84.16 - - [20/Mar/2017:14:30:56 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.84.16 - - [20/Mar/2017:14:43:21 -0400] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+10.40.84.16 - - [20/Mar/2017:14:43:52 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1318
+10.40.84.16 - - [20/Mar/2017:14:44:05 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1288
+10.40.84.16 - - [20/Mar/2017:14:44:05 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1288
+10.40.84.16 - - [20/Mar/2017:14:44:06 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1288
+10.40.84.16 - - [20/Mar/2017:14:44:06 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1288
+10.40.84.16 - - [20/Mar/2017:14:44:06 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1288
+10.40.84.16 - - [20/Mar/2017:14:44:06 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1288
+10.40.84.16 - - [20/Mar/2017:14:44:07 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1288
+10.40.84.16 - - [20/Mar/2017:14:44:07 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1288
+10.40.84.16 - - [20/Mar/2017:14:44:07 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1288
+10.40.84.16 - - [20/Mar/2017:14:44:07 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1288
+10.40.84.16 - - [20/Mar/2017:14:44:08 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1288
+10.40.84.16 - - [20/Mar/2017:14:44:08 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 1288
+10.40.84.16 - - [20/Mar/2017:14:44:29 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 172
+10.40.84.16 - - [20/Mar/2017:14:57:26 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+10.40.84.16 - - [20/Mar/2017:14:57:29 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+10.40.84.16 - - [20/Mar/2017:14:59:00 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+10.40.84.16 - - [20/Mar/2017:14:59:37 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1418
+10.40.84.16 - - [20/Mar/2017:15:00:14 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1227
+10.40.84.16 - - [20/Mar/2017:15:00:15 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1307
+10.40.84.16 - - [20/Mar/2017:15:00:15 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1307
+10.40.84.16 - - [20/Mar/2017:15:00:16 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1307
+10.40.84.16 - - [20/Mar/2017:15:00:17 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1307
+10.40.84.16 - - [20/Mar/2017:15:02:47 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1227
+10.40.84.16 - - [20/Mar/2017:15:02:48 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1307
+10.40.84.16 - - [20/Mar/2017:15:02:56 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1227
+10.40.84.16 - - [20/Mar/2017:15:03:14 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1303
+10.40.84.16 - - [20/Mar/2017:15:03:27 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.84.16 - - [20/Mar/2017:15:05:53 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+::1 - - [20/Mar/2017:15:06:02 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.84.16 - - [20/Mar/2017:15:06:33 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1223
+10.40.84.16 - - [20/Mar/2017:15:06:34 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1303
+10.40.84.16 - - [20/Mar/2017:15:06:34 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1303
+10.40.84.16 - - [20/Mar/2017:15:06:35 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1303
+10.40.84.16 - - [20/Mar/2017:15:06:36 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1303
+10.40.84.16 - - [20/Mar/2017:15:06:36 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1303
+69.157.124.134 - - [20/Mar/2017:16:08:21 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+69.157.124.134 - - [20/Mar/2017:16:08:21 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+69.157.124.134 - - [20/Mar/2017:16:08:23 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 -
+69.157.124.134 - - [20/Mar/2017:16:08:26 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+69.157.124.134 - - [20/Mar/2017:16:09:05 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+69.157.124.134 - - [20/Mar/2017:16:09:06 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 -
+69.157.124.134 - - [20/Mar/2017:16:09:08 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+69.157.124.134 - - [20/Mar/2017:16:14:00 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:14:04 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:19:11 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:25:41 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:27:14 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:39:43 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:43:36 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:47:52 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:47:56 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:47:59 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:48:03 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:49:50 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:52:32 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:53:28 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:54:00 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:54:49 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:16:55:10 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+69.157.124.134 - - [20/Mar/2017:16:55:13 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1431
+69.157.124.134 - - [20/Mar/2017:16:55:24 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1459
+69.157.124.134 - - [20/Mar/2017:16:55:55 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1301
+69.157.124.134 - - [20/Mar/2017:16:56:09 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1270
+69.157.124.134 - - [20/Mar/2017:16:56:56 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 -
+69.157.124.134 - - [20/Mar/2017:16:57:05 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 -
+69.157.124.134 - - [20/Mar/2017:16:57:20 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1270
+69.157.124.134 - - [20/Mar/2017:16:57:26 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 -
+69.157.124.134 - - [20/Mar/2017:16:58:03 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+69.157.124.134 - - [20/Mar/2017:16:59:59 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+69.157.124.134 - - [20/Mar/2017:17:00:25 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+69.157.124.134 - - [20/Mar/2017:17:02:31 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+69.157.124.134 - - [20/Mar/2017:17:02:32 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+69.157.124.134 - - [20/Mar/2017:17:02:34 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+69.157.124.134 - - [20/Mar/2017:17:03:08 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1470
+69.157.124.134 - - [20/Mar/2017:17:03:10 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+69.157.124.134 - - [20/Mar/2017:17:03:11 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1309
+69.157.124.134 - - [20/Mar/2017:17:03:13 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1309
+69.157.124.134 - - [20/Mar/2017:17:03:19 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1270
+69.157.124.134 - - [20/Mar/2017:17:04:35 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:04:44 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+69.157.124.134 - - [20/Mar/2017:17:04:47 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:06:45 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:06:46 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:06:50 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:06:51 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:06:51 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:06:51 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:06:57 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1253
+69.157.124.134 - - [20/Mar/2017:17:07:02 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+69.157.124.134 - - [20/Mar/2017:17:07:08 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:13:05 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+69.157.124.134 - - [20/Mar/2017:17:13:10 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:13:11 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:13:15 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1253
+69.157.124.134 - - [20/Mar/2017:17:13:20 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+69.157.124.134 - - [20/Mar/2017:17:14:26 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+69.157.124.134 - - [20/Mar/2017:17:15:56 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+69.157.124.134 - - [20/Mar/2017:17:17:08 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:17:09 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:17:09 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:17:09 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:18:16 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:18:17 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:18:18 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:18:19 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1269
+69.157.124.134 - - [20/Mar/2017:17:18:28 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.90.43 - - [20/Mar/2017:17:25:30 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+10.40.90.43 - - [20/Mar/2017:17:25:30 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.90.43 - - [20/Mar/2017:17:25:30 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+69.157.124.134 - - [20/Mar/2017:17:28:49 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:17:28:51 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:17:30:47 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:17:31:13 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+69.157.124.134 - - [20/Mar/2017:17:33:39 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+69.157.124.134 - - [20/Mar/2017:17:33:42 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1283
+69.157.124.134 - - [20/Mar/2017:17:33:59 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1282
+69.157.124.134 - - [20/Mar/2017:17:34:08 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1244
+10.40.90.43 - - [20/Mar/2017:17:34:28 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+10.40.90.43 - - [20/Mar/2017:17:36:56 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+69.157.124.134 - - [20/Mar/2017:17:37:04 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1282
+10.40.90.43 - - [20/Mar/2017:17:37:12 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1263
+69.157.124.134 - - [20/Mar/2017:17:37:12 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1250
+::1 - - [20/Mar/2017:17:37:20 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.90.43 - - [20/Mar/2017:17:37:24 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1271
+10.40.90.43 - - [20/Mar/2017:17:37:32 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1302
+10.40.90.43 - - [20/Mar/2017:17:37:39 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1271
+10.40.90.43 - - [20/Mar/2017:17:37:44 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1303
+10.40.90.43 - - [20/Mar/2017:17:37:49 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1338
+10.40.90.43 - - [20/Mar/2017:17:37:56 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1339
+10.40.90.43 - - [20/Mar/2017:17:37:58 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1339
+10.40.90.43 - - [20/Mar/2017:17:37:58 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1339
+69.157.124.134 - - [20/Mar/2017:17:38:04 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1250
+10.40.90.43 - - [20/Mar/2017:17:38:12 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1303
+10.40.90.43 - - [20/Mar/2017:17:38:29 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1385
+69.157.124.134 - - [20/Mar/2017:17:39:16 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+69.157.124.134 - - [20/Mar/2017:17:39:22 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1300
+10.40.90.43 - - [20/Mar/2017:17:42:36 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1289
+10.40.90.43 - - [20/Mar/2017:17:42:42 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.90.43 - - [20/Mar/2017:17:42:46 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1271
+10.40.90.43 - - [20/Mar/2017:17:42:50 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1271
+10.40.90.43 - - [20/Mar/2017:17:45:53 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1287
+10.40.90.43 - - [20/Mar/2017:18:01:15 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1287
+10.40.90.43 - - [20/Mar/2017:18:01:32 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.90.43 - - [20/Mar/2017:18:01:38 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1301
+10.40.90.207 - - [21/Mar/2017:09:54:50 -0400] "GET /exe/scriptsecurity.cgi HTTP/1.1" 404 -
+10.40.90.207 - - [21/Mar/2017:09:54:50 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.90.207 - - [21/Mar/2017:09:55:31 -0400] "GET /exe/scriptsecurity.cgi HTTP/1.1" 404 -
+10.40.90.207 - - [21/Mar/2017:09:55:57 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1154
+10.40.90.207 - - [21/Mar/2017:10:06:54 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1168
+10.40.90.207 - - [21/Mar/2017:10:06:56 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1168
+10.40.90.207 - - [21/Mar/2017:10:07:18 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1163
+10.40.90.207 - - [21/Mar/2017:10:12:14 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1270
+10.40.90.207 - - [21/Mar/2017:10:13:18 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+10.40.90.207 - - [21/Mar/2017:10:14:34 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1531
+10.40.90.207 - - [21/Mar/2017:10:15:34 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1400
+10.40.90.207 - - [21/Mar/2017:10:16:16 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1400
+10.40.90.207 - - [21/Mar/2017:10:18:01 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+10.40.90.207 - - [21/Mar/2017:10:18:09 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+10.40.90.207 - - [21/Mar/2017:10:19:25 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+10.40.90.207 - - [21/Mar/2017:10:19:41 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+10.40.90.207 - - [21/Mar/2017:10:20:27 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+10.40.90.207 - - [21/Mar/2017:10:21:02 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+10.40.90.207 - - [21/Mar/2017:10:21:12 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1400
+10.40.90.207 - - [21/Mar/2017:10:25:23 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 500 26
+10.40.90.207 - - [21/Mar/2017:10:26:32 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+10.40.90.207 - - [21/Mar/2017:10:28:21 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+10.40.90.207 - - [21/Mar/2017:10:28:46 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+10.40.90.207 - - [21/Mar/2017:10:28:56 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+10.40.90.207 - - [21/Mar/2017:10:29:08 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1403
+10.40.90.207 - - [21/Mar/2017:10:29:22 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+10.40.90.207 - - [21/Mar/2017:10:29:38 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1460
+10.40.90.207 - - [21/Mar/2017:10:29:50 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1399
+10.40.90.207 - - [21/Mar/2017:10:29:59 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1398
+10.40.90.207 - - [21/Mar/2017:10:30:11 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.90.207 - - [21/Mar/2017:10:30:31 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1401
+10.40.90.207 - - [21/Mar/2017:10:37:20 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 -
+10.40.90.207 - - [21/Mar/2017:10:37:49 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 -
+10.40.90.207 - - [21/Mar/2017:10:39:25 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 -
+10.40.90.207 - - [21/Mar/2017:10:44:00 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1400
+10.40.90.207 - - [21/Mar/2017:10:44:32 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1408
+10.40.90.207 - - [21/Mar/2017:10:44:58 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1408
+10.40.90.207 - - [21/Mar/2017:10:45:04 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1408
+10.40.90.207 - - [21/Mar/2017:10:45:14 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+10.40.90.207 - - [21/Mar/2017:10:46:22 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1448
+10.40.90.207 - - [21/Mar/2017:10:46:32 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1387
+10.40.90.207 - - [21/Mar/2017:10:46:39 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1386
+10.40.90.207 - - [21/Mar/2017:10:46:47 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.90.207 - - [21/Mar/2017:10:47:30 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1434
+10.40.90.207 - - [21/Mar/2017:10:47:43 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1435
+10.40.90.207 - - [21/Mar/2017:10:47:55 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1435
+10.40.90.207 - - [21/Mar/2017:10:48:36 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1435
+10.40.90.207 - - [21/Mar/2017:10:48:37 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+10.40.90.207 - - [21/Mar/2017:10:57:23 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1462
+10.40.90.207 - - [21/Mar/2017:10:58:03 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1414
+10.40.90.207 - - [21/Mar/2017:10:58:21 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.90.207 - - [21/Mar/2017:10:58:36 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+10.40.90.207 - - [21/Mar/2017:11:01:49 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1475
+10.40.90.207 - - [21/Mar/2017:11:01:59 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1439
+10.40.90.207 - - [21/Mar/2017:11:02:04 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1403
+10.40.90.207 - - [21/Mar/2017:11:02:12 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.90.207 - - [21/Mar/2017:11:02:16 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1417
+10.40.90.207 - - [21/Mar/2017:11:04:26 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1403
+10.40.90.207 - - [21/Mar/2017:11:04:36 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+10.40.90.207 - - [21/Mar/2017:11:05:42 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 176
+10.40.90.207 - - [21/Mar/2017:11:08:16 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1403
+10.40.90.207 - - [21/Mar/2017:11:08:23 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1403
+10.40.90.207 - - [21/Mar/2017:11:08:52 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+10.40.90.207 - - [21/Mar/2017:11:10:08 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1424
+10.40.90.207 - - [21/Mar/2017:11:10:14 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+::1 - - [22/Mar/2017:19:47:34 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [24/Mar/2017:08:35:26 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [25/Mar/2017:14:47:56 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [26/Mar/2017:20:46:08 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [27/Mar/2017:20:30:17 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [28/Mar/2017:17:48:13 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [29/Mar/2017:20:16:47 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.84.179 - - [03/Apr/2017:12:10:11 -0400] "GET /store/admin.cgi HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:12:10:11 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:12:10:11 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:12:10:25 -0400] "GET /store/admin/admin.cgi HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:12:12:51 -0400] "GET /admin/admin.cgi HTTP/1.1" 500 26
+10.40.84.179 - - [03/Apr/2017:12:15:08 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.84.179 - jmuia [03/Apr/2017:12:15:15 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 9621
+10.40.84.179 - jmuia [03/Apr/2017:12:16:11 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 1531
+10.40.84.179 - - [03/Apr/2017:12:36:35 -0400] "GET /store/pictures/Audi_A4. HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:12:36:35 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:12:36:38 -0400] "GET /store/pictures/AudiA4. HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:12:37:59 -0400] "GET /store/pictures/AudiA4. HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:12:38:02 -0400] "GET /store/pictures/AudiA4. HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:12:38:06 -0400] "GET /store/pictures/AudiA4.jpg HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:12:40:04 -0400] "GET /store/pictures/AudiA4.jpg HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:12:41:07 -0400] "GET /pictures/AudiA4.jpg HTTP/1.1" 200 6135
+10.40.84.179 - - [03/Apr/2017:13:06:11 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:13:06:48 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.84.179 - - [03/Apr/2017:13:10:17 -0400] "\x16\x03\x01" 400 226
+10.40.84.179 - - [03/Apr/2017:13:10:22 -0400] "\x16\x03\x01" 400 226
+10.40.84.179 - - [03/Apr/2017:13:10:23 -0400] "\x16\x03\x01" 400 226
+10.40.84.179 - - [03/Apr/2017:13:10:24 -0400] "\x16\x03\x01" 400 226
+10.40.84.179 - - [03/Apr/2017:13:10:24 -0400] "\x16\x03\x01" 400 226
+10.40.84.179 - - [03/Apr/2017:13:11:00 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.84.179 - - [03/Apr/2017:13:11:31 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:13:11:44 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:13:11:45 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:13:11:46 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:13:11:47 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:13:11:51 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 404 -
+10.40.84.179 - - [03/Apr/2017:13:24:54 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.84.179 - jmuia [03/Apr/2017:13:25:03 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5916
+10.40.84.179 - - [03/Apr/2017:13:25:04 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.84.179 - - [03/Apr/2017:13:25:04 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:25:04 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.84.179 - - [03/Apr/2017:13:25:04 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:25:04 -0400] "GET /pictures/Mercedes_AMG.jpg HTTP/1.1" 200 103758
+10.40.84.179 - - [03/Apr/2017:13:25:04 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+10.40.84.179 - - [03/Apr/2017:13:25:05 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.84.179 - - [03/Apr/2017:13:25:05 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.84.179 - - [03/Apr/2017:13:25:06 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+::1 - - [03/Apr/2017:13:25:07 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:25:11 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:25:12 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:25:13 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:25:14 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:25:15 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:25:16 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.84.179 - jmuia [03/Apr/2017:13:27:32 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.84.179 - - [03/Apr/2017:13:27:32 -0400] "GET /pictures/Mercedes_AMG.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:27:32 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 304 -
+::1 - - [03/Apr/2017:13:27:40 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.84.179 - jmuia [03/Apr/2017:13:29:07 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.84.179 - - [03/Apr/2017:13:29:07 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:29:07 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 304 -
+::1 - - [03/Apr/2017:13:29:15 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.84.179 - jmuia [03/Apr/2017:13:29:21 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5326
+10.40.84.179 - - [03/Apr/2017:13:29:22 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 304 -
+10.40.84.179 - jmuia [03/Apr/2017:13:29:35 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 869
+10.40.84.179 - - [03/Apr/2017:13:29:37 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 304 -
+10.40.84.179 - jmuia [03/Apr/2017:13:31:01 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 870
+10.40.84.179 - jmuia [03/Apr/2017:13:31:24 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5329
+10.40.84.179 - - [03/Apr/2017:13:31:25 -0400] "\x16\x03\x01" 400 226
+10.40.84.179 - - [03/Apr/2017:13:31:25 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:31:25 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:31:25 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:31:26 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:31:26 -0400] "GET /pictures/Mercedes_AMG.jpg HTTP/1.1" 304 -
+::1 - - [03/Apr/2017:13:31:28 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:31:29 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:31:32 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:31:33 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:31:34 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:31:35 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:31:36 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.84.179 - jmuia [03/Apr/2017:13:32:10 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 870
+10.40.84.179 - jmuia [03/Apr/2017:13:32:13 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5328
+10.40.84.179 - - [03/Apr/2017:13:32:13 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 304 -
+10.40.84.179 - jmuia [03/Apr/2017:13:32:18 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 786
+10.40.84.179 - jmuia [03/Apr/2017:13:33:02 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 851
+10.40.84.179 - jmuia [03/Apr/2017:13:33:28 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 851
+10.40.84.179 - jmuia [03/Apr/2017:13:33:52 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5921
+10.40.84.179 - - [03/Apr/2017:13:33:52 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 304 -
+10.40.84.179 - jmuia [03/Apr/2017:13:34:17 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5328
+10.40.84.179 - - [03/Apr/2017:13:34:17 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:34:17 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:34:18 -0400] "GET /pictures/Mercedes_AMG.jpg HTTP/1.1" 304 -
+10.40.84.179 - jmuia [03/Apr/2017:13:34:20 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 786
+::1 - - [03/Apr/2017:13:34:25 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:34:26 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:34:27 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.84.179 - jmuia [03/Apr/2017:13:34:33 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5920
+10.40.84.179 - jmuia [03/Apr/2017:13:35:01 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5328
+10.40.84.179 - jmuia [03/Apr/2017:13:35:03 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 786
+10.40.84.179 - jmuia [03/Apr/2017:13:35:31 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5914
+10.40.84.179 - - [03/Apr/2017:13:35:32 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:35:32 -0400] "GET /pictures/Lancer.jpg HTTP/1.1" 200 16363
+::1 - - [03/Apr/2017:13:35:39 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.84.179 - jmuia [03/Apr/2017:13:35:48 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5328
+10.40.84.179 - jmuia [03/Apr/2017:13:35:50 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 786
+10.40.84.179 - jmuia [03/Apr/2017:13:36:05 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5920
+10.40.84.179 - jmuia [03/Apr/2017:13:36:18 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5328
+10.40.84.179 - jmuia [03/Apr/2017:13:36:57 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.84.179 - - [03/Apr/2017:13:36:57 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:36:57 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 304 -
+10.40.84.179 - - [03/Apr/2017:13:36:58 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 304 -
+::1 - - [03/Apr/2017:13:37:05 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:37:06 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:13:37:07 -0400] "OPTIONS * HTTP/1.0" 200 -
+174.112.48.68 - - [03/Apr/2017:13:53:25 -0400] "GET /pictures/$form%7Bpicture%7D HTTP/1.1" 404 -
+174.112.48.68 - - [03/Apr/2017:13:53:25 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+69.157.124.134 - - [03/Apr/2017:21:36:14 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+69.157.124.134 - jmuia [03/Apr/2017:21:36:18 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+69.157.124.134 - - [03/Apr/2017:21:36:19 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+69.157.124.134 - - [03/Apr/2017:21:36:19 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+69.157.124.134 - - [03/Apr/2017:21:36:19 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+69.157.124.134 - - [03/Apr/2017:21:36:19 -0400] "GET /pictures/Mercedes_AMG.jpg HTTP/1.1" 200 103758
+69.157.124.134 - - [03/Apr/2017:21:36:19 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+69.157.124.134 - - [03/Apr/2017:21:36:19 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+69.157.124.134 - - [03/Apr/2017:21:36:20 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+69.157.124.134 - - [03/Apr/2017:21:36:20 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+69.157.124.134 - - [03/Apr/2017:21:36:21 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+69.157.124.134 - - [03/Apr/2017:21:36:21 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [03/Apr/2017:21:36:22 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:21:36:27 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:21:36:28 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:21:36:29 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:21:36:30 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:21:36:31 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [03/Apr/2017:21:36:32 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.90.207 - - [04/Apr/2017:10:01:25 -0400] "GET /admin.admin.cgi HTTP/1.1" 404 -
+10.40.90.207 - - [04/Apr/2017:10:01:25 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.90.207 - - [04/Apr/2017:10:01:29 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuiaP@ssw0rd [04/Apr/2017:10:01:34 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuia [04/Apr/2017:10:01:40 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - - [04/Apr/2017:10:01:40 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.90.207 - - [04/Apr/2017:10:01:40 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.90.207 - - [04/Apr/2017:10:01:40 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.90.207 - - [04/Apr/2017:10:01:40 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.90.207 - - [04/Apr/2017:10:01:40 -0400] "GET /pictures/Mercedes_AMG.jpg HTTP/1.1" 200 103758
+10.40.90.207 - - [04/Apr/2017:10:01:41 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.90.207 - - [04/Apr/2017:10:01:42 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.90.207 - - [04/Apr/2017:10:01:42 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.40.90.207 - - [04/Apr/2017:10:01:43 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+::1 - - [04/Apr/2017:10:01:44 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:10:01:46 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:10:01:47 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:10:01:48 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:10:01:49 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:10:01:50 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:10:01:51 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.90.207 - jmuia [04/Apr/2017:10:18:00 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 786
+10.40.90.207 - jmuia [04/Apr/2017:10:18:41 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 6509
+10.40.90.207 - - [04/Apr/2017:10:18:41 -0400] "GET /pictures/Lancer.jpg HTTP/1.1" 200 16363
+10.40.90.207 - jmuia [04/Apr/2017:10:18:48 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - jmuia [04/Apr/2017:10:18:51 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 786
+10.40.90.207 - - [04/Apr/2017:10:31:51 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuia [04/Apr/2017:10:32:01 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - - [04/Apr/2017:10:32:02 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.90.207 - - [04/Apr/2017:10:32:02 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.90.207 - - [04/Apr/2017:10:32:02 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.90.207 - - [04/Apr/2017:10:32:02 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.90.207 - - [04/Apr/2017:10:32:02 -0400] "GET /pictures/Mercedes_AMG.jpg HTTP/1.1" 200 103758
+10.40.90.207 - - [04/Apr/2017:10:32:02 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+10.40.90.207 - - [04/Apr/2017:10:32:03 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.90.207 - - [04/Apr/2017:10:32:03 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.90.207 - - [04/Apr/2017:10:32:04 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.40.90.207 - - [04/Apr/2017:10:32:04 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [04/Apr/2017:10:32:05 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:10:32:09 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:10:32:10 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:10:32:11 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:10:32:12 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:10:32:13 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:10:32:14 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.90.207 - jmuia [04/Apr/2017:10:32:19 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - jmuia [04/Apr/2017:10:32:33 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - - [04/Apr/2017:10:32:41 -0400] "GET / HTTP/1.1" 200 7
+10.40.90.207 - - [04/Apr/2017:10:32:41 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.90.207 - - [04/Apr/2017:10:32:46 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuia [04/Apr/2017:10:33:00 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuia  [04/Apr/2017:10:33:09 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuia [04/Apr/2017:10:33:17 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - - [04/Apr/2017:10:33:51 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - - [04/Apr/2017:11:06:51 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - vta [04/Apr/2017:11:06:56 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - vta [04/Apr/2017:11:07:01 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuia [04/Apr/2017:11:07:06 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - - [04/Apr/2017:11:07:07 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.90.207 - - [04/Apr/2017:11:07:07 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.90.207 - - [04/Apr/2017:11:07:07 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.90.207 - - [04/Apr/2017:11:07:07 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.90.207 - - [04/Apr/2017:11:07:07 -0400] "GET /pictures/Mercedes_AMG.jpg HTTP/1.1" 200 103758
+10.40.90.207 - - [04/Apr/2017:11:07:07 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.90.207 - - [04/Apr/2017:11:07:08 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.90.207 - - [04/Apr/2017:11:07:08 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.40.90.207 - - [04/Apr/2017:11:07:09 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+10.40.90.207 - - [04/Apr/2017:11:07:09 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [04/Apr/2017:11:07:10 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:07:12 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:07:13 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:07:14 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:07:15 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:07:16 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:07:17 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.90.207 - - [04/Apr/2017:11:08:22 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - vta [04/Apr/2017:11:08:29 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - vta [04/Apr/2017:11:08:35 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - vta [04/Apr/2017:11:08:46 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuia [04/Apr/2017:11:08:52 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuia [04/Apr/2017:11:09:02 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - - [04/Apr/2017:11:09:03 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.90.207 - - [04/Apr/2017:11:09:03 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.90.207 - - [04/Apr/2017:11:09:03 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.90.207 - - [04/Apr/2017:11:09:03 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.90.207 - - [04/Apr/2017:11:09:03 -0400] "GET /pictures/Mercedes_AMG.jpg HTTP/1.1" 200 103758
+10.40.90.207 - - [04/Apr/2017:11:09:03 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.90.207 - - [04/Apr/2017:11:09:04 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.90.207 - - [04/Apr/2017:11:09:04 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.40.90.207 - - [04/Apr/2017:11:09:05 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+10.40.90.207 - - [04/Apr/2017:11:09:05 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [04/Apr/2017:11:09:06 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:09:08 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:09:09 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:09:10 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:09:11 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:09:12 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:09:13 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.90.207 - - [04/Apr/2017:11:11:25 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuia  [04/Apr/2017:11:11:54 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuia  [04/Apr/2017:11:11:54 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - - [04/Apr/2017:11:11:58 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.90.207 - - [04/Apr/2017:11:12:00 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+::1 - - [04/Apr/2017:11:12:08 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.90.207 - jmuia  [04/Apr/2017:11:12:10 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuia [04/Apr/2017:11:12:17 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - jmuia [04/Apr/2017:11:12:49 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - jmuia [04/Apr/2017:11:12:52 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - - [04/Apr/2017:11:13:06 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - - [04/Apr/2017:11:13:11 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.90.207 - - [04/Apr/2017:11:13:17 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.90.207 - jmuia [04/Apr/2017:11:23:37 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - - [04/Apr/2017:11:23:37 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.90.207 - - [04/Apr/2017:11:23:37 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.90.207 - - [04/Apr/2017:11:23:37 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.90.207 - - [04/Apr/2017:11:23:37 -0400] "GET /pictures/Mercedes_AMG.jpg HTTP/1.1" 200 103758
+10.40.90.207 - - [04/Apr/2017:11:23:37 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.90.207 - - [04/Apr/2017:11:23:38 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.90.207 - - [04/Apr/2017:11:23:39 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.90.207 - - [04/Apr/2017:11:23:39 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.40.90.207 - - [04/Apr/2017:11:23:40 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+::1 - - [04/Apr/2017:11:23:41 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:23:43 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:23:44 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:23:45 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:23:46 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:23:47 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [04/Apr/2017:11:23:48 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.90.207 - jmuia [04/Apr/2017:11:24:07 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 786
+10.40.90.207 - jmuia [04/Apr/2017:11:24:40 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 856
+10.40.90.207 - jmuia [04/Apr/2017:11:24:47 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 855
+10.40.90.207 - jmuia [04/Apr/2017:11:24:50 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 6518
+10.40.90.207 - - [04/Apr/2017:11:24:51 -0400] "GET /pictures/crap.jpg HTTP/1.1" 404 -
+10.40.90.207 - jmuia [04/Apr/2017:11:24:57 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 876
+10.40.90.207 - jmuia [04/Apr/2017:11:25:03 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 6510
+10.40.90.207 - - [04/Apr/2017:11:25:04 -0400] "GET /pictures/ HTTP/1.1" 302 219
+10.40.90.207 - jmuia [04/Apr/2017:11:25:14 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 876
+10.40.90.207 - jmuia [04/Apr/2017:11:25:18 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 6510
+10.40.90.207 - - [04/Apr/2017:11:25:18 -0400] "GET /pictures/ HTTP/1.1" 302 219
+10.40.90.207 - jmuia [04/Apr/2017:11:25:28 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.90.207 - jmuia [04/Apr/2017:11:27:24 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 786
+10.40.90.207 - jmuia [04/Apr/2017:11:27:41 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 901
+10.40.90.207 - jmuia [04/Apr/2017:11:27:45 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 899
+10.40.90.207 - jmuia [04/Apr/2017:11:28:00 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 837
+10.40.90.207 - jmuia [04/Apr/2017:11:28:34 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 842
+10.40.90.207 - jmuia [04/Apr/2017:11:28:49 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 786
+10.40.90.207 - jmuia [04/Apr/2017:11:29:02 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 6508
+10.40.90.207 - - [04/Apr/2017:11:29:02 -0400] "GET /pictures/Lancer.jpg HTTP/1.1" 200 16363
+10.40.90.207 - jmuia [04/Apr/2017:11:29:05 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 864
+10.40.90.207 - jmuia [04/Apr/2017:11:29:18 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 6498
+10.40.90.207 - - [04/Apr/2017:11:29:18 -0400] "GET /pictures/ HTTP/1.1" 302 219
+10.40.90.207 - jmuia [04/Apr/2017:11:30:58 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 864
+10.40.90.207 - jmuia [04/Apr/2017:11:31:04 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 836
+10.40.90.207 - jmuia [04/Apr/2017:11:31:09 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 835
+10.40.90.207 - jmuia [04/Apr/2017:11:32:24 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 835
+10.40.90.207 - jmuia [04/Apr/2017:11:32:31 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 6498
+10.40.90.207 - - [04/Apr/2017:11:32:31 -0400] "GET /pictures/ HTTP/1.1" 302 219
+10.40.90.207 - jmuia [04/Apr/2017:11:32:35 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 953
+10.40.90.207 - jmuia [04/Apr/2017:11:32:45 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 847
+10.40.103.24 - - [06/Apr/2017:09:56:02 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.103.24 - jmuia [06/Apr/2017:09:56:07 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 6498
+10.40.103.24 - - [06/Apr/2017:09:56:08 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.103.24 - - [06/Apr/2017:09:56:08 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.103.24 - - [06/Apr/2017:09:56:08 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.103.24 - - [06/Apr/2017:09:56:08 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.103.24 - - [06/Apr/2017:09:56:08 -0400] "GET /pictures/Mercedes_AMG.jpg HTTP/1.1" 200 103758
+10.40.103.24 - - [06/Apr/2017:09:56:08 -0400] "GET /pictures/ HTTP/1.1" 302 219
+10.40.103.24 - - [06/Apr/2017:09:56:08 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.103.24 - - [06/Apr/2017:09:56:09 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.103.24 - - [06/Apr/2017:09:56:09 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.40.103.24 - - [06/Apr/2017:09:56:10 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+10.40.103.24 - - [06/Apr/2017:09:56:10 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [06/Apr/2017:09:56:11 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [06/Apr/2017:09:56:13 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [06/Apr/2017:09:56:14 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [06/Apr/2017:09:56:15 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [06/Apr/2017:09:56:16 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [06/Apr/2017:09:56:17 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [06/Apr/2017:09:56:18 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.103.24 - jmuia [06/Apr/2017:09:56:38 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 953
+10.40.103.24 - jmuia [06/Apr/2017:09:56:42 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 845
+10.40.103.24 - jmuia [06/Apr/2017:09:56:49 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 844
+10.40.103.24 - jmuia [06/Apr/2017:09:56:54 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 7078
+10.40.103.24 - - [06/Apr/2017:09:56:54 -0400] "GET /pictures/%3Cimg%20src= HTTP/1.1" 404 -
+10.40.103.24 - - [06/Apr/2017:09:56:54 -0400] "GET /pictures/ HTTP/1.1" 302 219
+::1 - - [06/Apr/2017:09:57:00 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.103.24 - jmuia [06/Apr/2017:09:57:01 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 6508
+10.40.103.24 - - [06/Apr/2017:09:57:01 -0400] "GET /pictures/%3Cimg%20src= HTTP/1.1" 404 -
+10.40.103.24 - jmuia [06/Apr/2017:10:01:07 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 986
+10.40.103.24 - jmuia [06/Apr/2017:10:01:13 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 861
+10.40.103.24 - jmuia [06/Apr/2017:10:01:21 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 862
+10.40.103.24 - jmuia [06/Apr/2017:10:01:26 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 7104
+10.40.103.24 - - [06/Apr/2017:10:01:26 -0400] "GET /pictures/%3Cimg%20src= HTTP/1.1" 404 -
+10.40.103.24 - jmuia [06/Apr/2017:10:01:46 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 986
+10.40.103.24 - jmuia [06/Apr/2017:10:03:53 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 7104
+10.40.103.24 - - [06/Apr/2017:10:03:53 -0400] "GET /pictures/%3Cimg%20src= HTTP/1.1" 404 -
+10.40.103.24 - jmuia [06/Apr/2017:10:03:58 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 979
+10.40.103.24 - jmuia [06/Apr/2017:10:04:35 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 7116
+10.40.103.24 - - [06/Apr/2017:10:04:35 -0400] "GET /pictures/%3Cimg%20src= HTTP/1.1" 404 -
+10.40.103.24 - - [06/Apr/2017:10:04:35 -0400] "GET /pictures/%3Cimg%20src=%20Mercedes_AMG.jpg HTTP/1.1" 404 -
+::1 - - [06/Apr/2017:10:04:41 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.103.24 - jmuia [06/Apr/2017:10:04:44 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 6536
+10.40.103.24 - - [06/Apr/2017:10:04:44 -0400] "GET /pictures/%3Cimg%20src=%20Mercedes_AMG.jpg HTTP/1.1" 404 -
+10.40.103.24 - jmuia [06/Apr/2017:10:04:47 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 991
+10.40.103.24 - jmuia [06/Apr/2017:10:05:07 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5928
+10.40.103.24 - jmuia [06/Apr/2017:10:05:10 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 986
+10.40.103.24 - jmuia [06/Apr/2017:10:06:41 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 986
+10.40.103.24 - jmuia [06/Apr/2017:10:07:28 -0400] "POST /admin/admin.cgi HTTP/1.1" 500 26
+10.40.103.24 - jmuia [06/Apr/2017:10:08:00 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 890
+10.40.103.24 - jmuia [06/Apr/2017:10:08:52 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5922
+10.40.103.24 - - [06/Apr/2017:10:08:52 -0400] "GET /pictures/Lancer.jpg HTTP/1.1" 200 16363
+10.40.103.24 - jmuia [06/Apr/2017:10:09:03 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5326
+::1 - - [06/Apr/2017:19:10:33 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.84.70 - - [11/Apr/2017:13:10:14 -0400] "GET / HTTP/1.1" 200 7
+10.40.84.70 - - [11/Apr/2017:13:10:14 -0400] "GET /favicon.ico HTTP/1.1" 404 209
+10.40.84.70 - - [11/Apr/2017:13:11:31 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.84.70 - jmuia [11/Apr/2017:13:11:37 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5326
+10.40.84.70 - - [11/Apr/2017:13:11:37 -0400] "HEAD /pictures/A4Audi.jpg HTTP/1.1" 200 -
+10.40.84.70 - - [11/Apr/2017:13:11:37 -0400] "HEAD /pictures/2017_Genesis.jpg HTTP/1.1" 200 -
+10.40.84.70 - - [11/Apr/2017:13:11:37 -0400] "HEAD /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 -
+10.40.84.70 - - [11/Apr/2017:13:11:37 -0400] "HEAD /pictures/BmwM4_gold.jpg HTTP/1.1" 200 -
+10.40.84.70 - - [11/Apr/2017:13:11:37 -0400] "HEAD /pictures/Elantra.jpg HTTP/1.1" 200 -
+10.40.84.70 - - [11/Apr/2017:13:11:37 -0400] "HEAD /pictures/HondaCivic2017.jpg HTTP/1.1" 200 -
+10.40.84.70 - - [11/Apr/2017:13:11:37 -0400] "HEAD /pictures/2017_Tiguan.jpg HTTP/1.1" 200 -
+10.40.84.70 - - [11/Apr/2017:13:11:38 -0400] "HEAD /pictures/PilotHonda.jpg HTTP/1.1" 200 -
+10.40.84.70 - jmuia [11/Apr/2017:13:12:18 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 786
+10.40.84.70 - jmuia [11/Apr/2017:13:12:32 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5902
+10.40.84.70 - - [11/Apr/2017:13:12:33 -0400] "GET /pictures/Lancer HTTP/1.1" 404 213
+10.40.84.70 - jmuia [11/Apr/2017:13:12:38 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 872
+10.40.84.70 - jmuia [11/Apr/2017:13:12:42 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5906
+10.40.84.70 - - [11/Apr/2017:13:12:42 -0400] "GET /pictures/Lancer.jpg HTTP/1.1" 200 16363
+10.40.84.70 - jmuia [11/Apr/2017:13:13:06 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5326
+10.40.84.70 - jmuia [11/Apr/2017:13:16:33 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5327
+10.40.84.70 - - [11/Apr/2017:13:16:33 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.84.70 - jmuia [11/Apr/2017:13:17:01 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5328
+10.40.84.70 - - [11/Apr/2017:13:17:01 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.84.70 - jmuia [11/Apr/2017:13:18:44 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5334
+10.40.84.70 - - [11/Apr/2017:13:18:44 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.84.70 - - [11/Apr/2017:13:18:44 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.84.70 - - [11/Apr/2017:13:18:44 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+10.40.84.70 - - [11/Apr/2017:13:18:44 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.84.70 - - [11/Apr/2017:13:18:44 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.84.70 - - [11/Apr/2017:13:18:44 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.40.84.70 - - [11/Apr/2017:13:34:03 -0400] "GET /shop.cgi HTTP/1.1" 404 206
+10.40.84.70 - - [11/Apr/2017:13:34:46 -0400] "GET /shop.cgi HTTP/1.1" 404 206
+10.40.84.70 - - [11/Apr/2017:13:34:52 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.84.70 - - [11/Apr/2017:13:35:03 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+10.40.84.70 - - [11/Apr/2017:13:35:23 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:37:11 -0400] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+10.40.84.70 - - [11/Apr/2017:13:37:25 -0400] "GET /exe/registration2.cgi HTTP/1.1" 200 1081
+10.40.84.70 - - [11/Apr/2017:13:37:39 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 200 1154
+10.40.84.70 - - [11/Apr/2017:13:38:27 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1402
+10.40.84.70 - - [11/Apr/2017:13:39:06 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.84.70 - - [11/Apr/2017:13:39:15 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:42:14 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1402
+10.40.84.70 - - [11/Apr/2017:13:42:17 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1402
+10.40.84.70 - - [11/Apr/2017:13:42:25 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.84.70 - - [11/Apr/2017:13:43:27 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.84.70 - - [11/Apr/2017:13:43:30 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 552
+10.40.84.70 - - [11/Apr/2017:13:43:34 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 570
+10.40.84.70 - - [11/Apr/2017:13:45:24 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.84.70 - - [11/Apr/2017:13:45:27 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+10.40.84.70 - - [11/Apr/2017:13:45:30 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:45:38 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:54:37 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:55:49 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.84.70 - - [11/Apr/2017:13:55:49 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.84.70 - - [11/Apr/2017:13:55:49 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.84.70 - - [11/Apr/2017:13:55:49 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+10.40.84.70 - - [11/Apr/2017:13:55:49 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.84.70 - - [11/Apr/2017:13:55:49 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.84.70 - - [11/Apr/2017:13:55:49 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.84.70 - - [11/Apr/2017:13:55:49 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.84.70 - - [11/Apr/2017:13:55:49 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.40.84.70 - - [11/Apr/2017:13:55:52 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+10.40.84.70 - - [11/Apr/2017:13:55:57 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:56:01 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:57:41 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.84.70 - - [11/Apr/2017:13:57:44 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+10.40.84.70 - - [11/Apr/2017:13:57:50 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:57:57 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:58:01 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:58:23 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:58:26 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:58:43 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:58:46 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:13:59:19 -0400] "GET /exe/scriptSecurity3.cgi HTTP/1.1" 404 221
+10.40.84.70 - - [11/Apr/2017:13:59:24 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 200 1154
+10.40.84.70 - - [11/Apr/2017:13:59:28 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1551
+10.40.84.70 - - [11/Apr/2017:14:00:10 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.84.70 - - [11/Apr/2017:14:00:17 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 571
+10.40.84.70 - - [11/Apr/2017:14:02:03 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 571
+10.40.84.70 - - [11/Apr/2017:14:02:05 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 573
+10.40.84.70 - - [11/Apr/2017:14:02:07 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 573
+10.40.84.70 - - [11/Apr/2017:14:02:14 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 572
+10.40.84.70 - - [11/Apr/2017:14:07:55 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 586
+10.40.84.70 - - [11/Apr/2017:14:09:52 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 200 1154
+10.40.84.70 - - [11/Apr/2017:14:10:51 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+10.40.84.70 - - [11/Apr/2017:14:11:27 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1627
+10.40.84.70 - - [11/Apr/2017:14:12:05 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1666
+10.40.84.70 - - [11/Apr/2017:14:12:41 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 388
+10.40.84.70 - - [11/Apr/2017:14:14:22 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 389
+10.40.84.70 - - [11/Apr/2017:14:14:37 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 390
+10.40.84.70 - - [11/Apr/2017:14:14:48 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.84.70 - - [11/Apr/2017:14:14:52 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 387
+10.40.84.70 - - [11/Apr/2017:14:15:02 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.84.70 - - [11/Apr/2017:14:15:05 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 389
+10.40.84.70 - - [11/Apr/2017:14:29:56 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 389
+10.40.84.70 - - [11/Apr/2017:14:31:43 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 389
+10.40.103.248 - - [13/Apr/2017:10:03:00 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.103.248 - - [13/Apr/2017:10:03:00 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.103.248 - - [13/Apr/2017:10:03:00 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+10.40.103.248 - - [13/Apr/2017:10:03:00 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.103.248 - - [13/Apr/2017:10:03:00 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.103.248 - - [13/Apr/2017:10:03:00 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.103.248 - - [13/Apr/2017:10:03:00 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.103.248 - - [13/Apr/2017:10:03:00 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.103.248 - - [13/Apr/2017:10:03:00 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.40.103.248 - - [13/Apr/2017:10:03:00 -0400] "GET /favicon.ico HTTP/1.1" 404 209
+10.40.103.248 - - [13/Apr/2017:10:03:00 -0400] "GET /favicon.ico HTTP/1.1" 404 209
+10.40.103.248 - - [13/Apr/2017:10:10:38 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+10.40.103.248 - - [13/Apr/2017:10:23:55 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+10.40.103.248 - - [13/Apr/2017:10:24:07 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 575
+10.40.103.248 - - [13/Apr/2017:10:24:13 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 575
+10.40.103.248 - - [13/Apr/2017:10:24:20 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 575
+10.40.103.248 - - [13/Apr/2017:10:24:28 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1636
+10.40.103.248 - - [13/Apr/2017:10:25:52 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1675
+10.40.103.248 - - [13/Apr/2017:10:26:33 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 395
+10.40.103.248 - - [13/Apr/2017:10:27:55 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.103.248 - - [13/Apr/2017:10:27:58 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1632
+10.40.103.248 - - [13/Apr/2017:10:29:20 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1698
+10.40.103.248 - - [13/Apr/2017:10:30:10 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 393
+10.40.103.248 - - [13/Apr/2017:10:30:40 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.103.248 - - [13/Apr/2017:10:31:30 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.103.248 - - [13/Apr/2017:10:31:33 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1636
+10.40.103.248 - - [13/Apr/2017:10:32:11 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.103.248 - - [13/Apr/2017:10:32:11 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.103.248 - - [13/Apr/2017:10:32:11 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+10.40.103.248 - - [13/Apr/2017:10:32:11 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.103.248 - - [13/Apr/2017:10:32:11 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.103.248 - - [13/Apr/2017:10:32:11 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.103.248 - - [13/Apr/2017:10:32:11 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.103.248 - - [13/Apr/2017:10:32:11 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.103.248 - - [13/Apr/2017:10:32:11 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.40.103.248 - - [13/Apr/2017:10:32:13 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+10.40.103.248 - - [13/Apr/2017:10:50:40 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1636
+10.40.103.248 - - [13/Apr/2017:10:51:05 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 395
+10.40.103.248 - - [13/Apr/2017:10:51:38 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1670
+10.40.103.248 - - [13/Apr/2017:10:52:25 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.103.248 - - [13/Apr/2017:10:53:47 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4507
+10.40.103.248 - - [13/Apr/2017:10:58:41 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1638
+10.40.103.248 - - [13/Apr/2017:10:59:17 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1747
+10.40.103.248 - - [13/Apr/2017:10:59:41 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1677
+10.40.103.248 - - [13/Apr/2017:10:59:57 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 401
+::1 - - [18/Apr/2017:22:34:38 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [19/Apr/2017:14:57:13 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [20/Apr/2017:11:11:03 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [21/Apr/2017:21:44:24 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [22/Apr/2017:09:34:28 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:19:07:40 -0400] "GET / HTTP/1.1" 200 7
+70.48.15.100 - - [11/Jul/2018:19:07:40 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [11/Jul/2018:19:07:51 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:19:07:56 -0400] "GET /exe HTTP/1.1" 404 -
+70.48.15.100 - - [11/Jul/2018:19:07:59 -0400] "GET /exe/ HTTP/1.1" 302 219
+70.48.15.100 - - [11/Jul/2018:19:08:05 -0400] "GET /admin/ HTTP/1.1" 401 401
+70.48.15.100 - jmuia [11/Jul/2018:19:08:27 -0400] "GET /admin/ HTTP/1.1" 302 219
+70.48.15.100 - - [11/Jul/2018:19:08:31 -0400] "GET /exe HTTP/1.1" 404 -
+70.48.15.100 - jmuia [11/Jul/2018:19:10:35 -0400] "GET /admin/ HTTP/1.1" 302 219
+70.48.15.100 - jmuia [11/Jul/2018:19:10:44 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5334
+70.48.15.100 - - [11/Jul/2018:19:10:44 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:44 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:44 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:44 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:45 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:45 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:45 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:45 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:45 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:45 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:45 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:45 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:45 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:45 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:45 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:10:45 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:19:10:52 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:19:11:12 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+70.48.15.100 - jmuia [11/Jul/2018:19:11:26 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5334
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:26 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:27 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+70.48.15.100 - jmuia [11/Jul/2018:19:11:32 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 889
+70.48.15.100 - - [11/Jul/2018:19:11:32 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+70.48.15.100 - jmuia [11/Jul/2018:19:11:42 -0400] "POST /admin/admin.cgi HTTP/1.1" 200 5323
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:11:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:14:08 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:14:08 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:14:08 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:14:08 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:14:08 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:14:08 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:14:08 -0400] "GET /exe/ HTTP/1.1" 302 219
+70.48.15.100 - - [11/Jul/2018:19:14:36 -0400] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+70.48.15.100 - - [11/Jul/2018:19:14:46 -0400] "GET /exe/registration2.cgi HTTP/1.1" 200 1081
+70.48.15.100 - - [11/Jul/2018:19:17:08 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+70.48.15.100 - - [11/Jul/2018:19:17:23 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 200 1154
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4496
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:48 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:17:56 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:19:17:57 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:19:19:11 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1433
+70.48.15.100 - - [11/Jul/2018:19:19:39 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 200 1154
+70.48.15.100 - - [11/Jul/2018:19:20:25 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1429
+70.48.15.100 - - [11/Jul/2018:19:20:34 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1398
+70.48.15.100 - - [11/Jul/2018:19:20:49 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+70.48.15.100 - - [11/Jul/2018:19:21:17 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4496
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:21:24 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+70.48.15.100 - - [11/Jul/2018:19:21:30 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1640
+70.48.15.100 - - [11/Jul/2018:19:22:01 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 385
+70.48.15.100 - - [11/Jul/2018:19:22:01 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:22:01 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:26:34 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:26:34 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:26:34 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:26:34 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:19:26:35 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:19:27:32 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 385
+70.48.15.100 - - [11/Jul/2018:19:27:33 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:19:27:33 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:27:45 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:27:45 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:27:45 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:27:59 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:27:59 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:27:59 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:27:59 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:27:59 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - jmuia [11/Jul/2018:19:27:59 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5323
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:00 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:19:28:07 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - jmuia [11/Jul/2018:19:28:10 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5323
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:10 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:28:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - jmuia [11/Jul/2018:19:36:01 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5323
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:01 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:02 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:02 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:02 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:02 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - jmuia [11/Jul/2018:19:36:25 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5323
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:25 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - jmuia [11/Jul/2018:19:36:26 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5323
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - jmuia [11/Jul/2018:19:36:26 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5323
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - jmuia [11/Jul/2018:19:36:27 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5323
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - jmuia [11/Jul/2018:19:36:27 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5323
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - jmuia [11/Jul/2018:19:36:27 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5323
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:36:27 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:19:36:28 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:19:36:29 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:19:36:30 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:19:36:31 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:19:36:32 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:19:36:33 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:19:36:35 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:19:39:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:39:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:39:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:39:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:39:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:39:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:39:26 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+70.48.15.100 - - [11/Jul/2018:19:39:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:39:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:39:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:39:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:39:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:39:41 -0400] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+70.48.15.100 - - [11/Jul/2018:19:39:41 -0400] "\x16\x03\x01\x02" 400 226
+::1 - - [11/Jul/2018:19:39:49 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:19:42:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:37 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+70.48.15.100 - - [11/Jul/2018:19:42:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - jmuia [11/Jul/2018:19:42:43 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5323
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:42:44 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:19:42:48 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:19:51:45 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:51:45 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:51:45 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:51:45 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+70.48.15.100 - - [11/Jul/2018:19:51:45 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:51:45 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:51:45 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:51:46 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+70.48.15.100 - - [11/Jul/2018:19:55:42 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1433
+70.48.15.100 - - [11/Jul/2018:19:55:50 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1397
+70.48.15.100 - - [11/Jul/2018:19:55:59 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+70.48.15.100 - - [11/Jul/2018:19:56:17 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:56:18 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:56:18 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:56:17 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 200 1154
+70.48.15.100 - - [11/Jul/2018:19:56:18 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:56:18 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:56:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:56:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:56:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:56:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:56:32 -0400] "GET /exe/login.cgi HTTP/1.1" 404 -
+70.48.15.100 - - [11/Jul/2018:19:56:53 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:56:53 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:56:53 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4496
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:19:57:32 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+70.48.15.100 - - [11/Jul/2018:19:57:41 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1637
+70.48.15.100 - - [11/Jul/2018:19:58:15 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:19:58:22 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:19:58:36 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:19:58:55 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:19:59:25 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:19:59:33 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:19:59:39 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:19:59:44 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:00:42 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:02:39 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1628
+70.48.15.100 - - [11/Jul/2018:20:03:16 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:07:05 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:07:09 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:08:12 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:08:16 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:12:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:12:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:12:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:12:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:12:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:12:28 -0400] "GET /exe/registration.cgi HTTP/1.1" 200 1081
+70.48.15.100 - - [11/Jul/2018:20:13:31 -0400] "POST /exe/registration.cgi HTTP/1.1" 200 172
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4496
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:39 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:40 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:40 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:40 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:40 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:40 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:40 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:40 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:40 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:13:44 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+70.48.15.100 - - [11/Jul/2018:20:13:52 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 576
+70.48.15.100 - - [11/Jul/2018:20:13:57 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 576
+70.48.15.100 - - [11/Jul/2018:20:14:05 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 576
+70.48.15.100 - - [11/Jul/2018:20:14:20 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 576
+70.48.15.100 - - [11/Jul/2018:20:14:27 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 576
+70.48.15.100 - - [11/Jul/2018:20:14:35 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 576
+70.48.15.100 - - [11/Jul/2018:20:15:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:15:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:15:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:15:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:15:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:15:25 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+70.48.15.100 - - [11/Jul/2018:20:15:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:15:33 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:15:33 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:15:33 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:15:33 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:15:33 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 200 1154
+70.48.15.100 - - [11/Jul/2018:20:16:54 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+70.48.15.100 - - [11/Jul/2018:20:17:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:04 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4496
+70.48.15.100 - - [11/Jul/2018:20:17:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:04 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:04 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:05 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:05 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:17:06 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+70.48.15.100 - - [11/Jul/2018:20:17:12 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1635
+70.48.15.100 - - [11/Jul/2018:20:17:49 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:18:32 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:18:35 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4496
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:08 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+::1 - - [11/Jul/2018:20:22:15 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:20:22:17 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:17 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:17 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:17 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:17 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:22:17 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:24:27 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 573
+70.48.15.100 - - [11/Jul/2018:20:24:45 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1636
+70.48.15.100 - - [11/Jul/2018:20:25:04 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+64.233.172.248 - - [11/Jul/2018:20:26:53 -0400] "GET / HTTP/1.1" 200 7
+64.233.172.246 - - [11/Jul/2018:20:26:54 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+64.233.172.244 - - [11/Jul/2018:20:26:54 -0400] "GET / HTTP/1.1" 200 7
+::1 - - [11/Jul/2018:20:26:58 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:20:26:59 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:20:27:00 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:20:30:06 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:30:09 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:32:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:32:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:32:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:32:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:32:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:32:55 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 384
+70.48.15.100 - - [11/Jul/2018:20:32:55 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:32:55 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:32 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:34:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:32 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:32 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:33 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:33 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:33 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:33 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:33 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:33 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:33 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:33 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:33 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:34:34 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+70.48.15.100 - - [11/Jul/2018:20:34:57 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1785
+70.48.15.100 - - [11/Jul/2018:20:35:23 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1593
+70.48.15.100 - - [11/Jul/2018:20:35:39 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 384
+70.48.15.100 - - [11/Jul/2018:20:35:40 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:35:40 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:41 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:45:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:48 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:48 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:48 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:48 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:48 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:48 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:48 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:49 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:50 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:51 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:45:51 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:20:45:57 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:20:49:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:26 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:27 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:28 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:20:49:35 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4496
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:38 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:49:43 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+::1 - - [11/Jul/2018:20:49:50 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:20:49:52 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1640
+70.48.15.100 - - [11/Jul/2018:20:50:12 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:50:20 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:50:22 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4496
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:28 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:29 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:29 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:29 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:29 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:29 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:29 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:29 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:29 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:29 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:50:29 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+70.48.15.100 - - [11/Jul/2018:20:50:40 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1640
+70.48.15.100 - - [11/Jul/2018:20:50:58 -0400] "POST /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4496
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:12 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:52:17 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+::1 - - [11/Jul/2018:20:52:25 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:20:53:36 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:36 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:39 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+70.48.15.100 - - [11/Jul/2018:20:53:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:41 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:41 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:42 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:20:53:49 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4496
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:59 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:59 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:59 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:59 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:59 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:59 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:59 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:53:59 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:01 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+::1 - - [11/Jul/2018:20:54:08 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:20:54:20 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+70.48.15.100 - - [11/Jul/2018:20:54:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:23 -0400] "GET /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:54:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:25 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:25 -0400] "GET /exe/shop.cgi HTTP/1.1" 500 26
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:54:37 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:20:54:44 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:04 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:05 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+70.48.15.100 - - [11/Jul/2018:20:57:11 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1789
+::1 - - [11/Jul/2018:20:57:19 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:20:57:33 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 385
+70.48.15.100 - - [11/Jul/2018:20:57:33 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:20:57:33 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:25 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:58:25 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:25 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:25 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:25 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:25 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:25 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:26 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:26 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:26 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:29 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 549
+70.48.15.100 - - [11/Jul/2018:20:58:35 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1789
+70.48.15.100 - - [11/Jul/2018:20:58:57 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 385
+70.48.15.100 - - [11/Jul/2018:20:58:57 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:58:57 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:20:59:16 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:20:59:17 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:02 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:00:05 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:21:00:06 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:32 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:33 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:33 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:01:35 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+70.48.15.100 - - [11/Jul/2018:21:01:40 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1764
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:03:31 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:08:59 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:09:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:09:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:09:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:09:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:09:00 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:09:00 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:09:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:09:00 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:09:00 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+70.48.15.100 - - [11/Jul/2018:21:09:06 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1786
+70.48.15.100 - - [11/Jul/2018:21:09:45 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1786
+70.48.15.100 - - [11/Jul/2018:21:10:17 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:10:17 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:17 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:17 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:17 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:18 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:18 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:18 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:18 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:18 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:10:33 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 200 1154
+70.48.15.100 - - [11/Jul/2018:21:11:42 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1372
+70.48.15.100 - - [11/Jul/2018:21:11:53 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 172
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:11 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:21:12:12 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:21:12:13 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+70.48.15.100 - - [11/Jul/2018:21:12:18 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1786
+70.48.15.100 - - [11/Jul/2018:21:12:37 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 380
+70.48.15.100 - - [11/Jul/2018:21:12:38 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:12:38 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:49 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:50 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:15:52 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+70.48.15.100 - - [11/Jul/2018:21:16:00 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 -
+70.48.15.100 - - [11/Jul/2018:21:17:11 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 -
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:13 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:14 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:14 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:14 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:14 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:15 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 713
+70.48.15.100 - - [11/Jul/2018:21:17:46 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 713
+70.48.15.100 - - [11/Jul/2018:21:17:54 -0400] "GET /exe/shop. HTTP/1.1" 404 -
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:17:58 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:21:17:59 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:21:18:01 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 713
+70.48.15.100 - - [11/Jul/2018:21:18:17 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+70.48.15.100 - - [11/Jul/2018:21:29:04 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1786
+70.48.15.100 - - [11/Jul/2018:21:29:19 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 380
+70.48.15.100 - - [11/Jul/2018:21:29:20 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:29:20 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:36 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:37 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:31:38 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+70.48.15.100 - - [11/Jul/2018:21:31:47 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1786
+70.48.15.100 - - [11/Jul/2018:21:32:10 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 380
+70.48.15.100 - - [11/Jul/2018:21:32:10 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:32:10 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:29 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:48:30 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:50:10 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 3768
+70.48.15.100 - - [11/Jul/2018:21:52:43 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 3768
+70.48.15.100 - - [11/Jul/2018:21:52:44 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 3768
+70.48.15.100 - - [11/Jul/2018:21:52:44 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 3768
+70.48.15.100 - - [11/Jul/2018:21:52:45 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 3768
+70.48.15.100 - - [11/Jul/2018:21:52:45 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 3768
+70.48.15.100 - - [11/Jul/2018:21:52:54 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 3768
+70.48.15.100 - - [11/Jul/2018:21:53:06 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4520
+70.48.15.100 - - [11/Jul/2018:21:53:06 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:06 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:06 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:06 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:06 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:06 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:07 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:07 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:07 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:07 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:07 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:07 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:41 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:41 -0400] "\x16\x03\x03" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:41 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:41 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:58 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:21:53:58 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:21:54:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:21:54:04 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:21:54:04 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:21:54:05 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:22:07:16 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:16 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:16 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4519
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "GET /pictures/ HTTP/1.1" 302 219
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:19 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4519
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "GET /pictures/ HTTP/1.1" 302 219
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:07:23 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:22:07:24 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:22:07:30 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:22:11:05 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:05 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:05 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:05 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:05 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:05 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:05 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4530
+70.48.15.100 - - [11/Jul/2018:22:11:05 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+70.48.15.100 - - [11/Jul/2018:22:11:05 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:05 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:05 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:05 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:06 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:06 -0400] "\x16\x03\x01" 400 226
+70.48.15.100 - - [11/Jul/2018:22:11:06 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:22:11:13 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:22:12:20 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:20 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:20 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:20 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:20 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:20 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:20 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4524
+70.48.15.100 - - [11/Jul/2018:22:12:20 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+70.48.15.100 - - [11/Jul/2018:22:12:20 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+70.48.15.100 - - [11/Jul/2018:22:12:21 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+70.48.15.100 - - [11/Jul/2018:22:12:21 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+70.48.15.100 - - [11/Jul/2018:22:12:22 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:22 -0400] "\x16\x03\x01" 400 226
+::1 - - [11/Jul/2018:22:12:23 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:22:12:22 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+70.48.15.100 - - [11/Jul/2018:22:12:20 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+::1 - - [11/Jul/2018:22:12:28 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:22:12:29 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:22:12:30 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:22:12:31 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:22:12:32 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [11/Jul/2018:22:12:33 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:22:12:40 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:40 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:40 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:40 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4523
+70.48.15.100 - - [11/Jul/2018:22:12:40 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:40 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:40 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:12:40 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+70.48.15.100 - - [11/Jul/2018:22:12:43 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+70.48.15.100 - - [11/Jul/2018:22:12:50 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1777
+::1 - - [11/Jul/2018:22:12:57 -0400] "OPTIONS * HTTP/1.0" 200 -
+70.48.15.100 - - [11/Jul/2018:22:13:10 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 384
+70.48.15.100 - - [11/Jul/2018:22:17:50 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 443
+70.48.15.100 - - [11/Jul/2018:22:17:58 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 443
+70.48.15.100 - - [11/Jul/2018:22:18:25 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 443
+70.48.15.100 - - [11/Jul/2018:22:18:31 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 443
+70.48.15.100 - - [11/Jul/2018:22:19:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:19:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:19:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:19:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:19:26 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:19:28 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4523
+70.48.15.100 - - [11/Jul/2018:22:20:14 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 455
+70.48.15.100 - - [11/Jul/2018:22:20:20 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:20:20 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:20:20 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:20:20 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:21:27 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 462
+70.48.15.100 - - [11/Jul/2018:22:21:30 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 462
+70.48.15.100 - - [11/Jul/2018:22:21:34 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:21:35 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:21:35 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:21:55 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 463
+70.48.15.100 - - [11/Jul/2018:22:22:00 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 463
+70.48.15.100 - - [11/Jul/2018:22:22:57 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 462
+70.48.15.100 - - [11/Jul/2018:22:22:59 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4523
+70.48.15.100 - - [11/Jul/2018:22:23:16 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:23:16 -0400] "\x16\x03\x01\x02" 400 226
+70.48.15.100 - - [11/Jul/2018:22:23:16 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+70.48.15.100 - - [11/Jul/2018:22:23:21 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 200 1154
+70.48.15.100 - - [11/Jul/2018:22:23:28 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+70.48.15.100 - - [11/Jul/2018:22:25:47 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 462
+70.48.15.100 - - [11/Jul/2018:22:26:14 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+70.48.15.100 - - [11/Jul/2018:22:26:37 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+70.48.15.100 - - [11/Jul/2018:22:27:41 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 230
+70.48.15.100 - - [11/Jul/2018:22:28:36 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1371
+70.48.15.100 - - [11/Jul/2018:22:28:39 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1371
+70.48.15.100 - - [11/Jul/2018:22:28:43 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 1371
+70.48.15.100 - - [11/Jul/2018:22:28:51 -0400] "GET /exe/scriptSecurity2.cgi HTTP/1.1" 200 1154
+70.48.15.100 - - [11/Jul/2018:22:29:58 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 242
+70.48.15.100 - - [11/Jul/2018:22:32:40 -0400] "POST /exe/scriptSecurity.cgi HTTP/1.1" 200 243
+70.48.15.100 - - [11/Jul/2018:22:32:42 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4523
+64.233.172.215 - - [12/Jul/2018:00:05:11 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+66.102.7.53 - - [12/Jul/2018:00:05:12 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+::1 - - [12/Jul/2018:00:05:17 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.84.223 - - [13/Jul/2018:08:37:36 -0400] "GET /exe/store.cgi HTTP/1.1" 404 -
+10.40.84.223 - - [13/Jul/2018:08:37:36 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.40.84.223 - - [13/Jul/2018:08:37:41 -0400] "GET / HTTP/1.1" 200 7
+10.40.84.223 - - [13/Jul/2018:08:38:06 -0400] "GET /exe/store.cgi HTTP/1.1" 404 -
+10.40.84.223 - - [13/Jul/2018:08:39:39 -0400] "GET /exe/admin/store.cgi HTTP/1.1" 404 -
+10.40.84.223 - - [13/Jul/2018:08:39:55 -0400] "GET /exe/admin/store.cgi HTTP/1.1" 404 -
+10.40.84.223 - - [13/Jul/2018:08:41:02 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4523
+10.40.84.223 - - [13/Jul/2018:08:41:02 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.84.223 - - [13/Jul/2018:08:41:02 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.84.223 - - [13/Jul/2018:08:41:02 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.84.223 - - [13/Jul/2018:08:41:02 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.84.223 - - [13/Jul/2018:08:41:03 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.84.223 - - [13/Jul/2018:08:41:04 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.84.223 - - [13/Jul/2018:08:41:04 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.40.84.223 - - [13/Jul/2018:08:41:05 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+::1 - - [13/Jul/2018:08:41:06 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:08:41:08 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:08:41:09 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:08:41:10 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:08:41:11 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:08:41:12 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:08:41:13 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.40.84.223 - - [13/Jul/2018:08:41:44 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.84.223 - jmuia [13/Jul/2018:08:41:51 -0400] "GET /admin/admin.cgi HTTP/1.1" 200 5326
+10.40.84.223 - - [13/Jul/2018:08:42:12 -0400] "GET /admin/admin.cgi HTTP/1.1" 401 401
+10.40.84.223 - - [13/Jul/2018:08:42:25 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+10.40.84.223 - - [13/Jul/2018:08:42:36 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+10.40.84.223 - - [13/Jul/2018:08:42:53 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1786
+10.40.84.223 - - [13/Jul/2018:08:43:15 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 473
+10.40.84.223 - - [13/Jul/2018:08:43:31 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4523
+10.40.84.223 - - [13/Jul/2018:08:43:44 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+10.40.84.223 - - [13/Jul/2018:08:43:51 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 600
+10.40.84.223 - - [13/Jul/2018:08:43:55 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 1786
+10.40.84.66 - - [13/Jul/2018:09:07:23 -0400] "\x16\x03\x01" 400 226
+10.40.84.66 - - [13/Jul/2018:09:07:33 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4523
+10.40.84.66 - - [13/Jul/2018:09:07:33 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.40.84.66 - - [13/Jul/2018:09:07:33 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.40.84.66 - - [13/Jul/2018:09:07:33 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.40.84.66 - - [13/Jul/2018:09:07:33 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.40.84.66 - - [13/Jul/2018:09:07:34 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.40.84.66 - - [13/Jul/2018:09:07:35 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.40.84.66 - - [13/Jul/2018:09:07:35 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.40.84.66 - - [13/Jul/2018:09:07:36 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+10.40.84.66 - - [13/Jul/2018:09:07:36 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [13/Jul/2018:09:07:37 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:09:07:39 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:09:07:40 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:09:07:41 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:09:07:42 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:09:07:43 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:09:07:44 -0400] "OPTIONS * HTTP/1.0" 200 -
+10.247.12.51 - - [13/Jul/2018:09:20:21 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4523
+10.247.12.51 - - [13/Jul/2018:09:20:21 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+10.247.12.51 - - [13/Jul/2018:09:20:21 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+10.247.12.51 - - [13/Jul/2018:09:20:21 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+10.247.12.51 - - [13/Jul/2018:09:20:21 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+10.247.12.51 - - [13/Jul/2018:09:20:21 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+10.247.12.51 - - [13/Jul/2018:09:20:22 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+10.247.12.51 - - [13/Jul/2018:09:20:22 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+10.247.12.51 - - [13/Jul/2018:09:20:23 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+10.247.12.51 - - [13/Jul/2018:09:20:23 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+10.247.12.51 - - [13/Jul/2018:09:20:23 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [13/Jul/2018:09:20:24 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:09:20:27 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:09:20:28 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:09:20:29 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:09:20:30 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:09:20:31 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:09:20:32 -0400] "OPTIONS * HTTP/1.0" 200 -
+64.233.172.213 - - [13/Jul/2018:14:03:11 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+64.233.172.215 - - [13/Jul/2018:14:03:11 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [13/Jul/2018:14:03:16 -0400] "OPTIONS * HTTP/1.0" 200 -
+99.229.162.115 - - [13/Jul/2018:23:10:17 -0400] "GET / HTTP/1.1" 200 7
+99.229.162.115 - - [13/Jul/2018:23:10:17 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+99.229.162.115 - - [13/Jul/2018:23:10:17 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+99.229.162.115 - - [13/Jul/2018:23:10:28 -0400] "GET /exe/shop.cgi HTTP/1.1" 200 4523
+99.229.162.115 - - [13/Jul/2018:23:10:28 -0400] "GET /pictures/Elantra.jpg HTTP/1.1" 200 18294
+99.229.162.115 - - [13/Jul/2018:23:10:28 -0400] "GET /pictures/HondaCivic2017.jpg HTTP/1.1" 200 25747
+99.229.162.115 - - [13/Jul/2018:23:10:28 -0400] "GET /pictures/2017_Genesis.jpg HTTP/1.1" 200 404475
+99.229.162.115 - - [13/Jul/2018:23:10:28 -0400] "GET /pictures/BmwM4_gold.jpg HTTP/1.1" 200 114012
+99.229.162.115 - - [13/Jul/2018:23:10:28 -0400] "GET /pictures/2017_Tiguan.jpg HTTP/1.1" 200 2363418
+99.229.162.115 - - [13/Jul/2018:23:10:29 -0400] "GET /pictures/Acura_mdx2017.jpg HTTP/1.1" 200 150750
+99.229.162.115 - - [13/Jul/2018:23:10:29 -0400] "GET /pictures/A4Audi.jpg HTTP/1.1" 200 186742
+99.229.162.115 - - [13/Jul/2018:23:10:30 -0400] "GET /pictures/PilotHonda.jpg HTTP/1.1" 200 88717
+::1 - - [13/Jul/2018:23:10:31 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:23:10:34 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:23:10:35 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:23:10:36 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:23:10:37 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:23:10:38 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [13/Jul/2018:23:10:39 -0400] "OPTIONS * HTTP/1.0" 200 -
+99.229.162.115 - - [13/Jul/2018:23:10:47 -0400] "POST /exe/shop.cgi HTTP/1.1" 200 574
+66.102.6.223 - - [15/Jul/2018:13:54:21 -0400] "GET /exe/scriptSecurity.cgi HTTP/1.1" 200 1256
+66.102.6.195 - - [15/Jul/2018:13:54:21 -0400] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [15/Jul/2018:13:54:26 -0400] "OPTIONS * HTTP/1.0" 200 -

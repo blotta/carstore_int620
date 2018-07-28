@@ -1,0 +1,63 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+    <title>Register</title>
+    <!--meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+
+    <!--link rel="stylesheet" href="custom.css" /-->
+</head>
+
+<body>
+
+    <header>
+        <h1>New User Registration</h1>
+    </header>
+
+    [% IF form_submitted AND newuser_form.valid %]
+    <p>Valid Submission</p>
+    <a href="/store_int620/store.dhtml">Main Page</a>
+    [% ELSE %]
+    <form id="newuser_form" action="/store_int620/register.dhtml" method="post" accept-charset="utf-8">
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" value="[% newuser_form.username %]" name="username">
+
+        <label for="passwd"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" value="[% newuser_form.passwd %]" name="passwd">
+
+        <label for="fname"><b>First Name</b></label>
+        <input type="text" placeholder="First Name" name="fname" value="[% newuser_form.fname %]">
+
+        <label for="lname"><b>Last Name</b></label>
+        <input type="text" placeholder="Last Name" name="lname" value="[% newuser_form.lname %]">
+
+        <label for="phone"><b>Phone Number</b></label>
+        <input type="text" placeholder="Phone number" name="phone" value="[% newuser_form.phone %]">
+
+        <label for="street"><b>Street Address</b></label>
+        <input type="text" placeholder="Street" name="street" value="[% newuser_form.street %]">
+
+        <label for="pcode"><b>Postal Code</b></label>
+        <input type="text" placeholder="Postal Code" name="pcode" value="[% newuser_form.pcode %]">
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Email" name="email" value="[% newuser_form.email %]">
+
+        <button type="submit" value="newuser_form" name="submit">Register</button>
+    </form>
+
+    [% UNLESS newuser_form.valid %]
+    <p>[% newuser_form.errmsg %]</p>
+    [% END %]
+
+    [% END %]
+
+</body>
+</html>
