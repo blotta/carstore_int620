@@ -1,3 +1,5 @@
+package CarStore::Postal;
+
 use strict;
 use warnings;
 

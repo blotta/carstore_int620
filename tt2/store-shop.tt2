@@ -37,12 +37,18 @@
     </form>
     
     <a href="/store_int620/register.dhtml">Register</a>
-    <!--form id="registration_form" action="/store_int620/register.dhtml"
-        method="post" accept-charset="utf-8">
-        <button type="submit" value="registration_form" name="submit">Register</button>
-    </form--!>
+        [% IF errors.login %]
+        <p style="color:red;">[% errors.login %]</p>
+        [% END %]
+
     [% END %]
 
     </header>
+
+    <div id="car_list">
+        [% FOREACH car IN cars %]
+        <p>[% car.name %]</p>
+        [% END %]
+    </div>
 </body>
 </html>

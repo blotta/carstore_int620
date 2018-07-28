@@ -3,17 +3,6 @@ package CarStore::Users;
 use strict;
 use warnings;
 
-#use Exporter qw(import);
-#our @EXPORT_OK = qw(do_login checkUserExists );
-
-#use vars qw($VERSION @ISA @EXPORT @EXPORRT_OK %EXPORRT_TAGS);
-#our $VERSION = 1.00;
-#our @ISA = qw(Exporter);
-#our @EXPORT = ();
-#our @EXPORT_OK = qw(do_login checkUserExists);
-#our %EXPORT_TAGS = ( DEFAULT => [qw(&do_login)],
-#                 Both    => [qw(&do_login &checkUserExists)]);
-
 use Exporter;
 our @ISA = qw( Exporter );
 our @EXPORT = qw( do_login checkUserExists getUserInfo addUser );
@@ -90,7 +79,6 @@ sub addUser {
 }
 
 sub getUserInfo {
-    print "HERE";
     my $username = shift;
 
     my $db = DBI->connect("dbi:mysql:carstore_int620:localhost","root","toor")
