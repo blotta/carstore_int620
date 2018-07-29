@@ -7,57 +7,110 @@
     <!--meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /-->
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <link rel="stylesheet" href="css/jquery-ui.css">
+    <!--link rel="stylesheet" href="css/jquery-ui.css"-->
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
+    <!--script src="js/jquery-ui.js"></script-->
 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
-    <!--link rel="stylesheet" href="custom.css" /-->
 </head>
 
 <body>
 
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="/store_int620/store.dhtml">Auto V</a>
+    </nav>
+
+    <div class="container">
+
     <header>
-        <h1>New User Registration</h1>
+        <h2>New User Registration</h2>
     </header>
 
     [% IF form_submitted AND newuser_form.valid %]
-    <p>Valid Submission</p>
-    <a href="/store_int620/store.dhtml">Main Page</a>
+
+    <div class="alert alert-success" role="alert">
+        Valid Submission
+    </div>
+
     [% ELSE %]
     <form id="newuser_form" action="/store_int620/register.dhtml" method="post" accept-charset="utf-8">
-        <label for="username"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" value="[% newuser_form.username %]" name="username">
+        <div class="form-row">
+            <div class="form-group col-md-6">
 
-        <label for="passwd"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" value="[% newuser_form.passwd %]" name="passwd">
+                <label for="username">Username</label>
+                <input type="text" placeholder="Enter Username" class="form-control"
+                       value="[% newuser_form.username %]" id="username" name="username">
+            </div>
+            <div class="form-group col-md-6">
 
-        <label for="fname"><b>First Name</b></label>
-        <input type="text" placeholder="First Name" name="fname" value="[% newuser_form.fname %]">
+                <label for="passwd">Password</label>
+                <input type="password" placeholder="Enter Password" class="form-control"
+                       value="[% newuser_form.passwd %]" id="passwd" name="passwd">
+            </div>
+        </div>
 
-        <label for="lname"><b>Last Name</b></label>
-        <input type="text" placeholder="Last Name" name="lname" value="[% newuser_form.lname %]">
+        <div class="form-row">
+            <div class="form-group col-md-6">
 
-        <label for="phone"><b>Phone Number</b></label>
-        <input type="text" placeholder="Phone number" name="phone" value="[% newuser_form.phone %]">
+                <label for="fname">First Name</label>
+                <input type="text" placeholder="First Name" name="fname" class="form-control"
+                       value="[% newuser_form.fname %]" id="fname">
+            </div>
+            <div class="form-group col-md-6">
 
-        <label for="street"><b>Street Address</b></label>
-        <input type="text" placeholder="Street" name="street" value="[% newuser_form.street %]">
+                <label for="lname">Last Name</label>
+                <input type="text" placeholder="Last Name" name="lname" class="form-control"
+                       value="[% newuser_form.lname %]" id="lname">
+            </div>
+        </div>
 
-        <label for="pcode"><b>Postal Code</b></label>
-        <input type="text" placeholder="Postal Code" name="pcode" value="[% newuser_form.pcode %]">
+        <div class="form-row">
+            <div class="form-group col-md-8">
 
-        <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Email" name="email" value="[% newuser_form.email %]">
+                <label for="street">Street Address</label>
+                <input type="text" placeholder="Street" name="street" class="form-control"
+                       value="[% newuser_form.street %]" id="street">
+            </div>
+            <div class="form-group col-md-4">
 
-        <button type="submit" value="newuser_form" name="submit">Register</button>
+                <label for="phone">Phone Number</label>
+                <input type="text" placeholder="Phone number" name="phone" class="form-control"
+                       value="[% newuser_form.phone %]" id="phone">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-4">
+
+                <label for="pcode">Postal Code</label>
+                <input type="text" placeholder="Postal Code" name="pcode"
+                       value="[% newuser_form.pcode %]" class="form-control">
+            </div>
+            <div class="form-group col-md-8">
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Email" name="email"
+                       value="[% newuser_form.email %]" class="form-control">
+            </div>
+        </div>
+
+        <button type="submit" value="newuser_form" name="submit"
+            class="btn btn-primary form-control btn-block">Register</button>
+
+        [% IF form_submitted AND ! newuser_form.valid %]
+        <div class="alert alert-danger" role="alert">
+            [% newuser_form.errmsg %]
+        </div>
+        [% END %]
     </form>
 
-    [% UNLESS newuser_form.valid %]
-    <p>[% newuser_form.errmsg %]</p>
-    [% END %]
 
     [% END %]
 
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
