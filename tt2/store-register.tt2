@@ -85,19 +85,30 @@
             <div class="form-group col-md-4">
 
                 <label for="pcode">Postal Code</label>
-                <input type="text" placeholder="Postal Code" name="pcode"
+                <input type="text" placeholder="Postal Code" name="pcode" id="postal-live"
                        value="[% newuser_form.pcode %]" class="form-control">
             </div>
             <div class="form-group col-md-8">
 
-                <label for="email"><b>Email</b></label>
+                <label for="email">Email</label>
                 <input type="text" placeholder="Email" name="email"
                        value="[% newuser_form.email %]" class="form-control">
             </div>
         </div>
 
-        <button type="submit" value="newuser_form" name="submit"
-            class="btn btn-primary form-control btn-block">Register</button>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+
+                <div id="city-state-country" class="form-control"></div>
+
+            </div>
+            <div class="form-group col-md-6">
+
+                <button type="submit" value="newuser_form" name="submit"
+                    class="btn btn-primary form-control btn-block">Register</button>
+
+            </div>
+        </div>
 
         [% IF form_submitted AND ! newuser_form.valid %]
         <div class="alert alert-danger" role="alert">
@@ -112,5 +123,6 @@
     </div>
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/magic.js"></script>
 </body>
 </html>

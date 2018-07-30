@@ -49,11 +49,11 @@ sub do_login{
 #}
 
 sub addUser {
-    my ($username, $password, $fname, $lname, $phone, $street, $pcode, $email) = @_ ;
+    my ($username, $password, $fname, $lname, $phone, $street, $pcode, $email, $city, $state) = @_ ;
     my $salt = '100';
 
 
-    addPostal($pcode);
+    addPostal($pcode, $city, $state);
 
     my $db = DBI->connect("dbi:mysql:carstore_int620:localhost","root","toor")
         or die "Database not reachable\n";

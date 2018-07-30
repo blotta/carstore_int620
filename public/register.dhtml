@@ -120,6 +120,8 @@ if ($ENV{REQUEST_METHOD} eq "POST"){
     #print "street: ", $cgiObject->param('street');
     #print "pcode: ", $cgiObject->param('pcode');
     #print "email: ", $cgiObject->param('email');
+    #print "city: ", $cgiObject->param('city');
+    #print "state: ", $cgiObject->param('state');
 
     %newuser_form = ( valid => 1 );
 
@@ -132,6 +134,8 @@ if ($ENV{REQUEST_METHOD} eq "POST"){
     my $street = $cgiObject->param('street');
     my $pcode = $cgiObject->param('pcode');
     my $email = $cgiObject->param('email');
+    my $city = $cgiObject->param('city');
+    my $state = $cgiObject->param('state');
 
     if ($form eq 'newuser_form'){
         #$user = $user =~ /[a-zA-Z0-9-._]+/;
@@ -197,6 +201,21 @@ if ($ENV{REQUEST_METHOD} eq "POST"){
             $newuser_form{valid} = 0;
             $newuser_form{errmsg} = "Invalid email";
         }
+
+        if ($city) {
+            $newuser_form{city} = $city;
+        }else{
+            $newuser_form{valid} = 0;
+            $newuser_form{errmsg} = "Invalid city";
+        }
+
+        if ($state) {
+            $newuser_form{state} = $state;
+        }else{
+            $newuser_form{valid} = 0;
+            $newuser_form{errmsg} = "Invalid state";
+        }
+
     } else {
         $newuser_form{errmsg} = "Invalid form";
         $newuser_form{valid} = 0;
@@ -208,7 +227,7 @@ if ($ENV{REQUEST_METHOD} eq "POST"){
     }
     
     if ($newuser_form{valid} eq 1){
-        addUser($user, $pass, $fname, $lname, $phone, $street, $pcode, $email);
+        addUser($user, $pass, $fname, $lname, $phone, $street, $pcode, $email, $city, $state);
         #print "Valid registration\n";
         #print Dumper $newuser_form;
     } else {

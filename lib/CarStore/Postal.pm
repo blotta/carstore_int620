@@ -13,6 +13,8 @@ use DBI;
 
 sub addPostal {
     my $postal = shift;
+    my $city = shift;
+    my $state = shift;
 
     if (checkPostalExists($postal) <= 0 ){
         my $db = DBI->connect("dbi:mysql:carstore_int620:localhost","root","toor")
@@ -22,8 +24,8 @@ sub addPostal {
         my $query_result = $db->prepare($sql);
 
         $query_result->bind_param(1, $postal);
-        $query_result->bind_param(2, 'Toronto');
-        $query_result->bind_param(3, 'ON');
+        $query_result->bind_param(2, $city);
+        $query_result->bind_param(3, $state);
 
         $query_result->execute() or die "Query failed: $DBI::errstr";
 

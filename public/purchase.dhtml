@@ -1,0 +1,211 @@
+#!/usr/local/bin/perl  
+#!/usr/bin/perl
+###############################################
+# first example using templating, xhtml and css
+# (c) ckaduri, 2002-20013
+# version 0.9b
+#
+##############################################
+#use strict;
+use Template;   #step 1
+use DBI;
+use CGI;
+
+use Apache::Session::MySQL;
+
+use lib '/export/srv/www/vhosts/main/store_int620/lib';
+use CarStore::Users;
+use CarStore::Cars;
+
+use Data::Dumper;
+
+use constant TEMPLATELIB => '/export/srv/www/vhosts/main/store_int620/tt2';
+################################ 
+## Declaration of Variables   ##
+################################
+
+my($template,
+   $ttObject,
+   $cgiObject,
+   $vars,
+   $db,
+   $sql,
+   $query_result,
+   $template,
+   %session,
+   $sessionID,
+   $cookie,
+   $user,
+   @cars,
+   %errors
+);
+my($debug)=0;
+
+my $dbuser = 'root';
+my $dbpass = 'toor';
+my $dbhost = 'localhost';
+my $db_sess_table = 'sessions';
+my $dbname = 'carstore_int620';
+
+
+#########################
+# debug                 #
+#########################
+if($debug)
+    {
+    }
+    
+#########################
+# Generate Magic Header #
+#########################
+$cgiObject=new CGI;
+
+print STDOUT $cgiObject->header('text/html');
+
+#########################
+# Session Start         #
+#########################
+
+# get cookie
+$sessionID = $cgiObject->cookie("PERLSESSID");
+
+tie %session, "Apache::Session::MySQL", $sessionID, {
+        DataSource => "DBI:mysql:host=$dbhost:database=$dbname",
+        UserName => "$dbuser",
+        Password => "$dbpass",
+        TableName => "$db_sess_table",
+        LockDataSource => "DBI:mysql:host=$dbhost:database=$dbname",
+        LockUserName => "$dbuser",
+        LockPassword => "$dbpass"
+};
+
+if (!defined ($sessionID)) {
+    # New session
+    #print "New Session\n";
+    $sessionID = $session{_session_id};
+    $session{count} = 0;
+    $session{timestamp} = [ ];
+    $cookie = $cgiObject->cookie(-name=>"PERLSESSID", -value=>$sessionID);
+} else {
+    #print "Old Session\n";
+}
+
+#print $sessionID;
+
+++$session{count};
+push( @{ $session{timestamp} }, scalar( localtime( time() ) ));
+
+# send cookie
+print STDOUT $cgiObject->header(-cookie => $cookie);
+
+#########################
+# Login                 #
+#########################
+
+my $username;
+my $password;
+
+if ($ENV{REQUEST_METHOD} eq "POST"){
+    #print "user: ", $cgiObject->param('username');
+    #print "pass: ", $cgiObject->param('passwd');
+    #print "form: ", $cgiObject->param('submit');
+    #print "logged_in: ", $session{logged_in};
+
+    if ( $cgiObject->param('submit') eq "login_form" ){
+        if( do_login($cgiObject->param('username'), $cgiObject->param('passwd'))){
+            $session{logged_in} = 1;
+            $user = getUserInfo($cgiObject->param('username'));
+            $session{username} = $user->{username};
+            $session{fname} = $user->{fname};
+            $session{lname} = $user->{lname};
+        } else {
+            $session{logged_in} = 0;
+            $errors{login} = 'Login failed';
+        }
+    } elsif ( $cgiObject->param('submit') eq "logout_form" ) {
+        $session{logged_in} = 0;
+        $session{username} = undef;
+        $session{fname} = undef;
+        $session{lname} = undef;
+        #print "Logging out\n";
+
+        ## End session
+        #tied(%session)->delete();
+        ## reset browser cookie
+        #$cookie = $cgiObject->cookie(
+        #    -name => "PERLSESSID",
+        #    -value => $sessionID,
+        #    -expires => "-1d"
+        #);
+    }
+}
+
+################################ 
+## Get cars                   ##
+################################
+
+@cars = getCars();
+
+################################ 
+## New Template Object(step 2)##
+################################
+my %config=(
+	INCLUDE_PATH => [ TEMPLATELIB ],
+    );
+    
+$ttObject = Template->new( \%config );
+
+$template = 'store-shop.tt2';
+
+###################################### 
+## Prep vars for template (step 4a) ##
+######################################
+
+$vars = {
+    title => "This is simpler than I thought",
+    collection => \@collection,
+    sess_id => $sessionID,
+    sess_count => $session{count},
+    sess_time => $session{timestamp},
+    sess_username => $session{username},
+    logged_in => $session{logged_in},
+    cars => \@cars,
+    errors => \%errors
+        };
+
+###################################### 
+## Bind and pass flow (step 4b + 5) ##
+######################################
+#$ttObject->process ( TEMPLATE, $vars ) 
+$ttObject->process ( $template, $vars ) 
+	or die( $ttObject->error() );
+
+   
+######################################
+
+#########################
+# Session End           #
+#########################
+
+# close and save session
+untie(%session);
+
+#if ($session{count} < 10) {
+#    # close and save session
+#    print "Saving session\n";
+#    untie(%session);
+#} else {
+#    # destroy session after 10
+#    tied(%session)->delete();
+#    # reset browser cookie
+#    $cookie = $cgiObject->cookie(
+#        -name => "PERLSESSID",
+#        -value => $sessionID,
+#        -expires => "-1d"
+#    );
+#}
+
+__END__
+
+
+
