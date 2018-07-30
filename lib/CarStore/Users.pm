@@ -5,8 +5,8 @@ use warnings;
 
 use Exporter;
 our @ISA = qw( Exporter );
-our @EXPORT = qw( do_login checkUserExists getUserInfo addUser );
-our @EXPORT_OK = qw( do_login checkUserExists getUserInfo addUser );
+our @EXPORT = qw( do_login checkUserExists getUserInfo getUserState addUser );
+our @EXPORT_OK = qw( do_login checkUserExists getUserInfo getUserState addUser );
 
 use DBI;
 use Crypt::PasswdMD5;
@@ -93,10 +93,20 @@ sub getUserInfo {
 
     my $user_info = $query_result->fetchrow_hashref();
 
+    $query_result->finish();
     $db->disconnect();
 
     #return %{$user_info};
     return $user_info;
+}
+
+sub getUserState {
+    my $username = shift;
+
+    my $user_info = getUserInfo($username);
+    my $postal_info = getPostalInfo($user_info->{pcode});
+
+    return $postal_info->{province};
 }
 
 sub checkUserExists {

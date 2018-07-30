@@ -54,7 +54,7 @@
         [% END %]
     </nav>
 
-    <div id="car_list" class="container">
+    <div class="container">
 
         [% IF errors.login %]
         <div class="alert alert-danger" role="alert">
@@ -62,57 +62,80 @@
         </div>
         [% END %]
 
-        [% FOREACH car IN cars %]
-        <form action="/store_int620/purchase.dhtml" method="post" accept-charset="utf-8">
 
-            <div class="card">
+        <div class="card">
             <div class="card-body">
 
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="/store_int620/pictures/[% car.picture %]"
-                    style="width:100%;height:100%;">
-                </div>
+                [% IF logged_in %]
+                    [% IF form_submitted %]
 
-                <div class="col-md-6">
-                    <h4>[% car.name %]</h4>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">[% car.description%]</li>
-                        <li class="list-group-item">[% car.color %]</li>
-                        <li class="list-group-item">[% car.transmission %]</li>
-                        <li class="list-group-item">[% car.doors %] doors</li>
-                        <li class="list-group-item">[% car.driveTrain %]</li>
-                    </ul>
+                        [% IF purchase_form.valid %]
+                        <div class="alert alert-success" role="alert"
+                             >Purchase successful</div>
+                        [% ELSE%]
+                        <div class="alert alert-danger" role="alert"
+                            >Purchase failed: [% purchase_form.errmsg %]</div>
+                        [% END %]
 
-                    <div class="row price-purchase">
-                        <div class="col-md-6">
-                            [% IF car.qty > 0 %]
-                            <p>CAD $[% car.price %]</p>
-                            [% ELSE %]
-                            <p>Out of stock</p>
-                            [% END %]
-                        </div>
-                        <div class="col-md-6">
-                            [% IF car.qty > 0 %]
-                            <button type="submit" name="submit" class="btn btn-primary"
-                                value="[% car.name %]">Purchase</button>
-                            [% ELSE %]
-                            <button type="submit" name="submit" class="btn btn-primary"
-                                value="[% car.name %]" disabled>Purchase</button>
-                            [% END %]
-                        </div>
+                    [% ELSE %]
+                <div class="card-title">Purchase [% car.name %]</div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Price: [% car.price %]</li>
+                            <li class="list-group-item">[% tax.type %]: [% tax.prov_rate%] % + [% tax.can_rate %] %</li>
+                            <li class="list-group-item">Total: CAD $[% total %]</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <form action="/store_int620/purchase.dhtml" method="post" accept-charset="utf-8">
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="cardtype">Card Type</label>
+                                    <select name="cardtype" class="form-control form-control-sm">
+                                        <option value="mastercard">Mastercard</option>
+                                        <option value="visa">Visa</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <label for="cardnumber">Card Number</label>
+                                <input class="form-control" type="text" name="cardnumber" value=""> 
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="expiry">Expiry Date</label>
+                                    <input class="form-control" type="text" name="expiry" value=""> 
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="sec">Sec</label>
+                                    <input class="form-control" type="text" name="sec" value=""> 
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="submit" name="submit" value="purchase-form"
+                                    class="btn btn-primary form-control">Purchase</button>
+                            </div>
+
+                            <input type="hidden" name="carname" value="[% car.name %]">
+                        </form>
                     </div>
 
                 </div>
+                    [% END %]
+                [% ELSE %]
+                <div class="alert alert-warning">Login required for purchase</div>
+                [% END %]
 
             </div>
-
-            </div>
-            </div>
-
-
-        </form>
-        [% END %]
+        </div>
     </div>
 
     <script src="js/bootstrap.min.js"></script>

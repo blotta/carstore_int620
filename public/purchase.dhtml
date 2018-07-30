@@ -16,6 +16,7 @@ use Apache::Session::MySQL;
 use lib '/export/srv/www/vhosts/main/store_int620/lib';
 use CarStore::Users;
 use CarStore::Cars;
+use CarStore::Transactions;
 
 use Data::Dumper;
 
@@ -36,7 +37,10 @@ my($template,
    $sessionID,
    $cookie,
    $user,
-   @cars,
+   %car,
+   $state,
+   $form_submitted,
+   %purchase_form,
    %errors
 );
 my($debug)=0;
@@ -47,6 +51,23 @@ my $dbhost = 'localhost';
 my $db_sess_table = 'sessions';
 my $dbname = 'carstore_int620';
 
+my $tax = {
+    'AB' => { type => 'GST',     prov_rate => 0,     can_rate => 5},
+    'BC' => { type => 'GST+PST', prov_rate => 7,     can_rate => 5},
+    'MB' => { type => 'GST+PST', prov_rate => 8,     can_rate => 5},
+    'NB' => { type => 'HST',     prov_rate => 10,    can_rate => 5},
+    'NL' => { type => 'HST',     prov_rate => 10,    can_rate => 5},
+    'NT' => { type => 'GST',     prov_rate => 0,     can_rate => 5},
+    'NS' => { type => 'HST',     prov_rate => 10,    can_rate => 5},
+    'NU' => { type => 'GST',     prov_rate => 0,     can_rate => 5},
+    'ON' => { type => 'HST',     prov_rate => 8,     can_rate => 5},
+    'PE' => { type => 'HST',     prov_rate => 10,    can_rate => 5},
+    'QC' => { type => 'GST+QST', prov_rate => 9.975, can_rate => 5},
+    'SK' => { type => 'GST+QST', prov_rate => 6,     can_rate => 5},
+    'YT' => { type => 'GST',     prov_rate => 0,     can_rate => 5}
+};
+
+$form_submitted = 0;
 
 #########################
 # debug                 #
@@ -102,9 +123,6 @@ print STDOUT $cgiObject->header(-cookie => $cookie);
 # Login                 #
 #########################
 
-my $username;
-my $password;
-
 if ($ENV{REQUEST_METHOD} eq "POST"){
     #print "user: ", $cgiObject->param('username');
     #print "pass: ", $cgiObject->param('passwd');
@@ -137,14 +155,71 @@ if ($ENV{REQUEST_METHOD} eq "POST"){
         #    -value => $sessionID,
         #    -expires => "-1d"
         #);
+    } elsif ( $cgiObject->param('submit') eq "purchase-car" ) {
+        %car = %{ getCarInfo($cgiObject->param('carname')) };
+
+        if ($session{logged_in}){
+            $state = getUserState($session{username});
+            
+        } else {
+        
+        }
+
+    } elsif ( $cgiObject->param('submit') eq "purchase-form" ) {
+        $form_submitted = 1;
+        %car = %{ getCarInfo($cgiObject->param('carname')) };
+        if ($session{logged_in}){
+            my $cardtype = $cgiObject->param('cardtype');
+            my $cardnumber = $cgiObject->param('cardnumber');
+            my $expiry = $cgiObject->param('expiry');
+            my $sec = $cgiObject->param('sec');
+
+            %purchase_form = (valid => 1);
+
+            if ($cardtype = 'mastercard' or $cardtype eq 'visa'){
+                $purchase_form{cardtype} = $cardtype;
+            } else {
+                $purchase_form{valid} = 0;
+                $purchase_form{errmsg} = 'Invalid cardtype';
+            }
+
+            if ($cardnumber =~ /\d{16}/){
+                $purchase_form{cardnumber} = $cardnumber;
+            } else {
+                $purchase_form{valid} = 0;
+                $purchase_form{errmsg} = 'Invalid cardnumber';
+            }
+
+            if ($expiry =~ /\d{2}\/\d{2}/){
+                $purchase_form{expiry} = $expiry;
+            } else {
+                $purchase_form{valid} = 0;
+                $purchase_form{errmsg} = 'Invalid expiry';
+            }
+
+            if ($sec =~ /\d{3}/){
+                $purchase_form{sec} = $sec;
+            } else {
+                $purchase_form{valid} = 0;
+                $purchase_form{errmsg} = 'Invalid security code';
+            }
+
+            # If form ok, add transaction
+            if ($purchase_form{valid}) {
+                my $state = getUserState($session{username});
+                my $total = $car{price} * (
+                    1 + (($tax->{$state}->{prov_rate} + $tax->{$state}->{can_rate} ) / 100 ));
+                my $carname = $cgiObject->param('carname');
+                my $username = $session{username};
+
+                addTransaction($username, $carname, $cardnumber, $cardtype,
+                    $total, $expiry, $sec);
+            }
+        }
+
     }
 }
 
-################################ 
-## Get cars                   ##
-################################
-
-@cars = getCars();
 
 ################################ 
 ## New Template Object(step 2)##
@@ -155,28 +230,33 @@ my %config=(
     
 $ttObject = Template->new( \%config );
 
-$template = 'store-shop.tt2';
+$template = 'store-purchase.tt2';
 
 ###################################### 
 ## Prep vars for template (step 4a) ##
 ######################################
 
 $vars = {
-    title => "This is simpler than I thought",
-    collection => \@collection,
     sess_id => $sessionID,
     sess_count => $session{count},
     sess_time => $session{timestamp},
     sess_username => $session{username},
     logged_in => $session{logged_in},
-    cars => \@cars,
+    car => \%car,
+    purchase_form => \%purchase_form,
+    form_submitted => $form_submitted,
     errors => \%errors
-        };
+};
+
+if ($session{logged_in}) {
+    $vars->{tax} = $tax->{$state};
+    $vars->{total} = $car{price} * (
+        1 + (($tax->{$state}->{prov_rate} + $tax->{$state}->{can_rate}) / 100 ));
+}
 
 ###################################### 
 ## Bind and pass flow (step 4b + 5) ##
 ######################################
-#$ttObject->process ( TEMPLATE, $vars ) 
 $ttObject->process ( $template, $vars ) 
 	or die( $ttObject->error() );
 

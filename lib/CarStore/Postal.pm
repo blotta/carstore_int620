@@ -5,8 +5,8 @@ use warnings;
 
 use Exporter;
 our @ISA = qw( Exporter );
-our @EXPORT = qw( addPostal checkPostalExists );
-our @EXPORT_OK = qw( addPostal checkPostalExists );
+our @EXPORT = qw( addPostal getPostalInfo checkPostalExists );
+our @EXPORT_OK = qw( addPostal getPostalInfo checkPostalExists );
 
 use DBI;
 
@@ -35,6 +35,26 @@ sub addPostal {
     }else{
         #print "Postal exists";
     }
+}
+
+sub getPostalInfo {
+    my $pcode = shift;
+
+    my $db = DBI->connect("dbi:mysql:carstore_int620:localhost","root","toor")
+        or die "Database not reachable\n";
+
+    my $sql = qq{ SELECT * FROM postal WHERE pcode = ? };
+
+    my $query_result = $db->prepare($sql);
+    $query_result->bind_param(1, $pcode);
+
+    $query_result->execute();
+
+    my $postal_info = $query_result->fetchrow_hashref();
+
+    $db->disconnect();
+
+    return $postal_info;
 }
 
 sub checkPostalExists {

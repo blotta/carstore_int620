@@ -95,11 +95,12 @@
                         <div class="col-md-6">
                             [% IF car.qty > 0 %]
                             <button type="submit" name="submit" class="btn btn-primary"
-                                value="[% car.name %]">Purchase</button>
+                                value="purchase-car">Purchase</button>
                             [% ELSE %]
                             <button type="submit" name="submit" class="btn btn-primary"
-                                value="[% car.name %]" disabled>Purchase</button>
+                                value="purchase-car" disabled>Purchase</button>
                             [% END %]
+                            <input type="hidden" name="carname" value="[% car.name %]">
                         </div>
                     </div>
 

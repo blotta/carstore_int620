@@ -201,3 +201,53 @@ INSERT INTO carstore_int620.itemInfo (name, description, color, transmission, do
     'BmwM4_gold.jpg',
     (SELECT sid FROM carstore_int620.supplier WHERE name = 'BMW')
 );
+
+
+-- None of these work
+DELIMITER $$
+CREATE PROCEDURE dec_qty(p INT)
+BEGIN
+    UPDATE itemInfo SET qty = qty - 1 WHERE pid = p;
+END $$
+DELIMETER ;
+
+DELIMETER $$
+CREATE TRIGGER decrement_qty
+BEFORE INSERT ON transactions
+FOR EACH ROW BEGIN
+    CALL dec_qty(NEW.pid);
+END$$
+DELIMETER ;
+
+DELIMETER $$
+CREATE TRIGGER decrement_qty
+BEFORE INSERT ON transactions
+FOR EACH ROW
+BEGIN
+    UPDATE itemInfo SET qty = qty - 1 WHERE itemInfo.pid = NEW.pid;
+END$$
+DELIMETER ;
+-- ###################
+
+-- Example transaction
+INSERT INTO transactions (cid, pid, paymentInfo, cardType, price, expiry, sec) VALUES (
+    (SELECT cid FROM users WHERE username = 'vvvv'),
+    (SELECT pid FROM itemInfo WHERE name = 'Hyundai Elantra'),
+    1234123412341234,
+    'mastercard',
+    20000,
+    '11/18',
+    123
+);
+
+INSERT INTO transactions (cid, pid, paymentInfo, cardType, price, expiry, sec) VALUES (
+    (SELECT cid FROM users WHERE username = 'vvvv'),
+    (SELECT pid FROM itemInfo WHERE name = 'BMW M4'),
+    1234123412341234,
+    'visa',
+    40000,
+    '11/18',
+    423
+);
+
+-- ####################
