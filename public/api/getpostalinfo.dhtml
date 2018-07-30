@@ -1,21 +1,9 @@
 #!/usr/local/bin/perl  
 #!/usr/bin/perl
 
-#use strict;
-
-#use Template;
-#use DBI;
 use CGI;
 use JSON;
 use HTTP::Tiny;
-
-#use Apache::Session::MySQL;
-
-#use lib '/export/srv/www/vhosts/main/store_int620/lib';
-#use CarStore::Users;
-#use CarStore::Cars;
-
-use Data::Dumper;
 
 my ($cgiObject,
     %json_resp,
@@ -31,7 +19,6 @@ $cgiObject=new CGI;
 
 print STDOUT $cgiObject->header('application/json');
 
-#$json_resp{'input_postal'} = 'l4j9e9';
 $json_resp{'input_postal'} = $cgiObject->param('postal');
 
 $url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?key=AIzaSyDxLkzb4v0-bN_e2DkXANPdzNEQVwn0nn0&inputtype=textquery&input=l4j9e9&fields=formatted_address';
@@ -45,8 +32,6 @@ $base_url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json';
     fields => 'formatted_address'
 );
 
-#$data{input} = 'l4j9e9';
-
 sub assemble_url{
     my $bu = shift;
     my $d = shift;
@@ -54,9 +39,7 @@ sub assemble_url{
     my $ret = $bu;
     my $sep = '?';
 
-    #print Dumper %{$d};
     foreach (keys %{$d}){
-        #print $_, ' : ', $d->{$_}, "\n";
         $sep = '&' unless $ret eq $bu;
         $ret = $ret . $sep . $_ . '=' . $d->{$_};
     }
@@ -81,9 +64,5 @@ if ($gmaps_resp->{status} =~ /^2/) {
     $json_resp{req_status} = 'ERROR';
 }
 
-#print $url . "\n";
-#print $gmaps_resp->{status};
-#print $gmaps_resp->{content} if length $gmaps_resp->{content};
 
 print encode_json \%json_resp;
-#print $gmaps_json->{candidates}[0]->{formatted_address} . "\n";
