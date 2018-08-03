@@ -1,0 +1,135 @@
+#!/usr/local/bin/perl  
+#!/usr/bin/perl
+
+#use strict;
+use Template;
+use DBI;
+use CGI;
+
+use Apache::Session::MySQL;
+
+use lib '/export/srv/www/vhosts/main/store_int620/lib';
+use CarStore::Users;
+use CarStore::Cars;
+use CarStore::Transactions;
+
+use Data::Dumper;
+
+use constant TEMPLATELIB => '/export/srv/www/vhosts/main/store_int620/tt2';
+################################ 
+## Declaration of Variables   ##
+################################
+
+my($template,
+   $ttObject,
+   $cgiObject,
+   $vars,
+   $template,
+   %session,
+   $sessionID,
+   $cookie,
+   @userTransactions,
+   %errors
+);
+my($debug)=0;
+
+my $dbuser = 'root';
+my $dbpass = 'toor';
+my $dbhost = 'localhost';
+my $db_sess_table = 'sessions';
+my $dbname = 'carstore_int620';
+
+#########################
+# Generate Magic Header #
+#########################
+$cgiObject=new CGI;
+
+print STDOUT $cgiObject->header('text/html');
+
+#########################
+# Session Start         #
+#########################
+
+# get cookie
+$sessionID = $cgiObject->cookie("PERLSESSID");
+
+tie %session, "Apache::Session::MySQL", $sessionID, {
+        DataSource => "DBI:mysql:host=$dbhost:database=$dbname",
+        UserName => "$dbuser",
+        Password => "$dbpass",
+        TableName => "$db_sess_table",
+        LockDataSource => "DBI:mysql:host=$dbhost:database=$dbname",
+        LockUserName => "$dbuser",
+        LockPassword => "$dbpass"
+};
+
+if (!defined ($sessionID)) {
+    # New session
+    #print "New Session\n";
+    $sessionID = $session{_session_id};
+    $session{count} = 0;
+    $session{timestamp} = [ ];
+    $cookie = $cgiObject->cookie(-name=>"PERLSESSID", -value=>$sessionID);
+} else {
+    #print "Old Session\n";
+}
+
+#print $sessionID;
+
+++$session{count};
+push( @{ $session{timestamp} }, scalar( localtime( time() ) ));
+
+# send cookie
+print STDOUT $cgiObject->header(-cookie => $cookie);
+
+########################
+
+
+if ($session{logged_in} and $session{username}) {
+    my @transactions = @{ &userTransactions($session{username}) };
+    @userTransactions = map { transactionDetails $_ } @transactions;
+    #print Dumper @userTransactions;
+}
+
+
+################################ 
+## New Template Object(step 2)##
+################################
+my %config=(
+	INCLUDE_PATH => [ TEMPLATELIB ],
+    );
+    
+$ttObject = Template->new( \%config );
+
+$template = 'store-userTransactions.tt2';
+
+###################################### 
+## Prep vars for template (step 4a) ##
+######################################
+
+$vars = {
+    sess_id => $sessionID,
+    sess_count => $session{count},
+    sess_time => $session{timestamp},
+    sess_username => $session{username},
+    logged_in => $session{logged_in},
+    user_transactions => \@userTransactions,
+    errors => \%errors
+        };
+
+###################################### 
+## Bind and pass flow (step 4b + 5) ##
+######################################
+#$ttObject->process ( TEMPLATE, $vars ) 
+$ttObject->process ( $template, $vars ) 
+	or die( $ttObject->error() );
+
+   
+######################################
+
+#########################
+# Session End           #
+#########################
+
+# close and save session
+untie(%session);

@@ -52,6 +52,7 @@ sub getPostalInfo {
 
     my $postal_info = $query_result->fetchrow_hashref();
 
+    $query_result->finish();
     $db->disconnect();
 
     return $postal_info;

@@ -5,8 +5,8 @@ use warnings;
 
 use Exporter;
 our @ISA = qw( Exporter );
-our @EXPORT = qw( getCarInfo getCars decQuantity );
-our @EXPORT_OK = qw( getCarInfo getCars decQuantity );
+our @EXPORT = qw( getCarInfo getCarInfo_fromID getCars decQuantity );
+our @EXPORT_OK = qw( getCarInfo getCarInfo_fromID getCars decQuantity );
 
 use DBI;
 
@@ -43,6 +43,27 @@ sub getCarInfo {
 
     my $query_result = $db->prepare($sql);
     $query_result->bind_param(1, $carname);
+
+    $query_result->execute();
+
+    my $car_info = $query_result->fetchrow_hashref();
+
+    $query_result->finish();
+    $db->disconnect();
+
+    return $car_info;
+}
+
+sub getCarInfo_fromID {
+    my $pid = shift;
+
+    my $db = DBI->connect("dbi:mysql:carstore_int620:localhost","root","toor")
+        or die "Database not reachable\n";
+
+    my $sql = qq{ SELECT * FROM itemInfo WHERE pid = ? };
+
+    my $query_result = $db->prepare($sql);
+    $query_result->bind_param(1, $pid);
 
     $query_result->execute();
 

@@ -24,6 +24,13 @@
         <form class="form-inline my-2 mg-lg-0" id="logout_form"
             action="/store_int620/store.dhtml" method="post" accept-charset="utf-8">
 
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link"
+                    href="/store_int620/userTransactions.dhtml">Orders</a>
+            </li>
+            </ul>
+
             <h6 class="text-white" >Logged in as [% sess_username %]</h6>
             <button class="btn btn-outline-success my-2 my-sm-0"
                     value="logout_form" name="submit" type="submit">Logout</button>

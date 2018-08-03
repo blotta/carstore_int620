@@ -5,8 +5,8 @@ use warnings;
 
 use Exporter;
 our @ISA = qw( Exporter );
-our @EXPORT = qw( do_login checkUserExists getUserInfo getUserState addUser );
-our @EXPORT_OK = qw( do_login checkUserExists getUserInfo getUserState addUser );
+our @EXPORT = qw( do_login checkUserExists getUserInfo getUserInfo_fromID getUserState addUser );
+our @EXPORT_OK = qw( do_login checkUserExists getUserInfo getUserInfo_fromID getUserState addUser );
 
 use DBI;
 use Crypt::PasswdMD5;
@@ -100,6 +100,27 @@ sub getUserInfo {
     return $user_info;
 }
 
+sub getUserInfo_fromID {
+    my $cid = shift;
+
+    my $db = DBI->connect("dbi:mysql:carstore_int620:localhost","root","toor")
+        or die "Database not reachable\n";
+
+    my $sql = qq{ SELECT * FROM users WHERE cid = ? };
+
+    my $query_result = $db->prepare($sql);
+    $query_result->bind_param(1, $cid);
+
+    $query_result->execute();
+
+    my $user_info = $query_result->fetchrow_hashref();
+
+    $query_result->finish();
+    $db->disconnect();
+
+    return $user_info;
+}
+
 sub getUserState {
     my $username = shift;
 
@@ -124,6 +145,7 @@ sub checkUserExists {
 
     my $count = $query_result->fetchrow_array();
 
+    $query_result->finish();
     $db->disconnect();
 
     return $count;

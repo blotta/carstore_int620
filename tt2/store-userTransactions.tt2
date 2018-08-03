@@ -24,13 +24,6 @@
         <form class="form-inline my-2 mg-lg-0" id="logout_form"
             action="/store_int620/store.dhtml" method="post" accept-charset="utf-8">
 
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link"
-                    href="/store_int620/userTransactions.dhtml">Orders</a>
-            </li>
-            </ul>
-
             <h6 class="text-white" >Logged in as [% sess_username %]</h6>
             <button class="btn btn-outline-success my-2 my-sm-0"
                     value="logout_form" name="submit" type="submit">Logout</button>
@@ -61,7 +54,7 @@
         [% END %]
     </nav>
 
-    <div id="car_list" class="container">
+    <div class="container">
 
         [% IF errors.login %]
         <div class="alert alert-danger" role="alert">
@@ -69,58 +62,35 @@
         </div>
         [% END %]
 
-        [% FOREACH car IN cars %]
-        <form action="/store_int620/purchase.dhtml" method="post" accept-charset="utf-8">
 
-            <div class="card">
-            <div class="card-body">
+        [% IF logged_in %]
 
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="/store_int620/pictures/[% car.picture %]"
-                    style="width:100%;height:100%;">
-                </div>
+        [% IF user_transactions.size > 0 %]
+            
+                [% FOREACH t IN user_transactions.reverse %]
+                <div class="card">
 
-                <div class="col-md-6">
-                    <h4>[% car.name %]</h4>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">[% car.description%]</li>
-                        <li class="list-group-item">[% car.color %]</li>
-                        <li class="list-group-item">[% car.transmission %]</li>
-                        <li class="list-group-item">[% car.doors %] doors</li>
-                        <li class="list-group-item">[% car.driveTrain %]</li>
-                    </ul>
-
-                    <div class="row price-purchase">
-                        <div class="col-md-6">
-                            [% IF car.qty > 0 %]
-                            <p>CAD $[% car.price %]</p>
-                            [% ELSE %]
-                            <p>Out of stock</p>
-                            [% END %]
-                        </div>
-                        <div class="col-md-6">
-                            [% IF car.qty > 0 %]
-                            <button type="submit" name="submit" class="btn btn-primary"
-                                value="purchase-car">Purchase</button>
-                            [% ELSE %]
-                            <button type="submit" name="submit" class="btn btn-primary"
-                                value="purchase-car" disabled>Purchase</button>
-                            [% END %]
-                            <input type="hidden" name="carname" value="[% car.name %]">
-                        </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Order #[% t.transaction.tid %]</h5>
+                        <h6 class="card-subtitle">[% t.car.name %]</h6>
+                        <p class="card-text">Payment: [%
+                        t.transaction.cardType%] [% subcard
+                        = t.transaction.paymentInfo
+                        ; subcard.replace('^.{12}','************') %]</p>
+                        <p class="card-text">Total: [% t.transaction.price %]</p>
+                        <p class="card-text">Date of Purchase: [%
+                        t.transaction.date %]</p>
                     </div>
 
                 </div>
+                [% END %]
 
-            </div>
-
-            </div>
-            </div>
-
-
-        </form>
+            [% ELSE %]
+                <h5>No purchases were made</h5>
+            [% END %]
         [% END %]
+
+
     </div>
 
     <script src="js/bootstrap.min.js"></script>
