@@ -13,3 +13,8 @@ Install Apache config and restart service
 $ cp store_int620/default-server.conf /etc/apache2/
 $ sudo systemctl restart apache2
 ```
+
+Place Google Maps Places API key on project root
+```
+$ echo '<key>' > gmaps-key.txt
+```

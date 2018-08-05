@@ -21,16 +21,30 @@ print STDOUT $cgiObject->header('application/json');
 
 $json_resp{'input_postal'} = $cgiObject->param('postal');
 
-$url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?key=AIzaSyDxLkzb4v0-bN_e2DkXANPdzNEQVwn0nn0&inputtype=textquery&input=l4j9e9&fields=formatted_address';
+#$url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?key=AIzaSyDxLkzb4v0-bN_e2DkXANPdzNEQVwn0nn0&inputtype=textquery&input=l4j9e9&fields=formatted_address';
 
-$base_url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json';
+#$base_url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json';
 
-%data = (
-    key => 'AIzaSyDxLkzb4v0-bN_e2DkXANPdzNEQVwn0nn0',
-    inputtype => 'textquery',
-    input => $json_resp{'input_postal'},
-    fields => 'formatted_address'
-);
+#%data = (
+#    key => 'AIzaSyDxLkzb4v0-bN_e2DkXANPdzNEQVwn0nn0',
+#    inputtype => 'textquery',
+#    input => $json_resp{'input_postal'},
+#    fields => 'formatted_address'
+#);
+
+sub readKey {
+    my $filename = shift;
+    open(KEY, "<", $filename) or die "Could not read file: $!";
+    my $key;
+    while (my $row = <KEY>) {
+        chomp $row;
+        $key = $row;
+    }
+
+    close(KEY);
+
+    return $key;
+}
 
 sub assemble_url{
     my $bu = shift;
@@ -45,6 +59,15 @@ sub assemble_url{
     }
     return $ret;
 }
+
+$base_url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json';
+
+%data = (
+    key => readKey('/export/srv/www/vhosts/main/store_int620/gmaps-key.txt'),
+    inputtype => 'textquery',
+    input => $json_resp{'input_postal'},
+    fields => 'formatted_address'
+);
 
 $url = assemble_url($base_url, \%data);
 
