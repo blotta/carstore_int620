@@ -68,7 +68,7 @@ sub _sendEmailReceipt {
     print MAIL "Great news $user->{fname}! Your purchase of $car->{name} was a success\n";
     print MAIL "---------------------------------------------------------------------------------\n";
     print MAIL "$car->{name}\t\tTotal: $price\n";
-    print MAIL "Payment: $cardType\t$paymentInfo\n";
+    print MAIL "Payment: $cardType\t************", substr($paymentInfo, -4) ,"\n";
     print MAIL "Customer Info:\n\n";
     print MAIL "Name: $user->{fname} $user->{lname}\n";
     print MAIL "Street: $user->{street}\n";
