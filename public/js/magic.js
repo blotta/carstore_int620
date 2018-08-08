@@ -13,15 +13,39 @@ $(document).ready(function(){
             ).done(function (data) {
                 console.log(data.req_status); 
                 if (data.api_status == 'OK'){
-                    $("#city-state-country").html(
-                        data.city + ', ' + data.state + ' ' + data.country);
+                    $("#city-prov-field").html(
+                        '<div id="city-state-country" class="form-control">' +
+                        data.city + ', ' + data.state + ' ' + data.country +
+                        '</div>');
 
                     $("#city-state-country").append(
                         '<input type="hidden" name="city" value="' + data.city + '">');
                     $("#city-state-country").append(
                         '<input type="hidden" name="state" value="' + data.state + '">');
+                } else if (data.api_status == 'OVER_QUERY_LIMIT') {
+                    $("#city-prov-field").html(
+                        '<div class="form-inline">'+
+                            '<input type="text" name="city" placeholder="City" class="form-control">'+
+                            '<select name="state" class="form-control">'+
+                                '<option value="AB">Alberta</option>'+
+                                '<option value="BC">British Columbia</option>'+
+                                '<option value="MB">Manitoba</option>'+
+                                '<option value="NB">New Brunswick</option>'+
+                                '<option value="NL">Newfoundland and Labrador</option>'+
+                                '<option value="NT">Northwest Territories</option>'+
+                                '<option value="NS">Nova Scotia</option>'+
+                                '<option value="NU">Nunavut</option>'+
+                                '<option value="ON">Ontario</option>'+
+                                '<option value="PE">Prince Edward Island</option>'+
+                                '<option value="QC">Quebec</option>'+
+                                '<option value="SK">Saskatchewan</option>'+
+                                '<option value="YT">Yukon</option>'+
+                            '</select>'+
+                        '</div>');
+                    console.log('Query limit reached');
                 } else {
                     $("#city-state-country").html('No city found under postal code');
+                    console.log(data.api_status);
                 }
             });
         } else {
